@@ -10,19 +10,14 @@ const ContactInfoPage = () => {
   return (
     <Layout>
       <>
-        <span>
-          <LinkContainer>
-            <ExternalLink href='https://facebook.com/groups/hukkary'>
-              <>
-                <StaticImage height={30} width={30} src="../images/facebook-logo.png" alt="Facebook-logo" />
-                <LinkText>Hukka Facebookissa</LinkText>
-              </>
-            </ExternalLink>
-          </LinkContainer>
-
-          {/* TODO: Discord link or instructions? */}
-          {/* TODO: email list join instructions? */}
-        </span>
+        <LinkContainer>
+          <ExternalLink href='https://facebook.com/groups/hukkary'>
+            <>
+              <StaticImage height={30} src="../images/facebook-logo.png" alt="Facebook logo" />
+              <LinkText>Hukka Facebookissa</LinkText>
+            </>
+          </ExternalLink>
+        </LinkContainer>
 
         <div>
           <h2>Virkailijat</h2>
@@ -30,8 +25,38 @@ const ContactInfoPage = () => {
 
         <Officers />
 
+        <div>
+          <h2>Muuta:</h2>
 
-        {/* TODO: Membership information link? */}
+          <div>
+            <StaticImage height={30} src="../images/discord-logo.png" alt="Discord logo" />
+            <div>
+              <span>Pyydä kutsu esim. voudilta</span>
+            </div>
+          </div>
+
+          <div>
+            <InformationTitle>Sähköpostilista</InformationTitle>
+            <div>
+              <span>Lähetä sähköposti webvastaavalle, että haluaisit listalle. Listalle ei tule spammia, vaan
+                    Hucan tärkeimmät tiedotteet</span>
+            </div>
+          </div>
+
+          <div>
+            <InformationTitle>Jäseneksi liittyminen</InformationTitle>
+            <div>
+              <span>Voit tulla mukaan kaikkeen toimintaamme myös ilman jäsenyyttä, mutta jäsenet saavat etuja tapahtumamaksuissa
+                    ja jäsenmaksu tukee yhdistyksen toimintaa.</span>
+              <p />
+              <span>Lisätietoa jäseneksi liittymisestä ja jäsenlomakkeen linkin löydät kattoseuramme </span>
+              <ExternalLink href='https://www.aarnimetsa.org/keskiaikaseura-yhdistyksena/jasenyys/'>
+                Suomen keskiaikaseura ry:n sivuilta.
+              </ExternalLink>
+            </div>
+          </div>
+
+        </div>
       </>
     </Layout>
 
@@ -54,10 +79,10 @@ const OfficerLineText = styled.span`
   display: block;
 `
 
-
+const InformationTitle = styled.h3`
+  margin-bottom: 4px;
+`
 
 export default ContactInfoPage
 
-
-
-export const Head: HeadFC = () => <title>Yhteystiedot</title>
+export const Head: HeadFC = () => <title>Hucan pitäjä - Yhteystiedot</title>
