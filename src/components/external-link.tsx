@@ -7,7 +7,7 @@ type Props = {
 }
 
 /**
- * Only meant for external links. For internal links use Gatsby's Link component
+ * Only meant for external links. For internal links use Gatsby's Link component.
  */
 const ExternalLink: FC<Props> = ({ children, href }) => (
   <StyledAnchor href={href}>{children}</StyledAnchor>

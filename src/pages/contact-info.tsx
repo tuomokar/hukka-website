@@ -4,6 +4,7 @@ import styled from '@emotion/styled'
 import { Layout } from "../components/layout"
 import { StaticImage } from "gatsby-plugin-image"
 import { ExternalLink } from "../components/external-link"
+import { Officers } from "../components/officers"
 
 const ContactInfoPage = () => {
   return (
@@ -21,12 +22,16 @@ const ContactInfoPage = () => {
 
           {/* TODO: Discord link or instructions? */}
           {/* TODO: email list join instructions? */}
-          {/* TODO: Membership information link? */}
         </span>
 
         <div>
           <h2>Virkailijat</h2>
         </div>
+
+        <Officers />
+
+
+        {/* TODO: Membership information link? */}
       </>
     </Layout>
 
@@ -40,6 +45,15 @@ const LinkContainer = styled.div`
 const LinkText = styled.span`
   margin-left: 8px;
 `
+
+const OfficerContainer = styled.div`
+  margin-top: 8px;
+`
+
+const OfficerLineText = styled.span`
+  display: block;
+`
+
 
 
 export default ContactInfoPage
