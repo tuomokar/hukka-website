@@ -12,7 +12,7 @@ const Header = () => {
 
       <div>
         <Link to='/'>
-          <StaticImage src="../images/hukka-vaakuna.png" alt="Hukan vaakuna" />
+          <StaticImage src="../images/hukka-device.png" alt="Hukan vaakuna" />
         </Link>
       </div>
 
