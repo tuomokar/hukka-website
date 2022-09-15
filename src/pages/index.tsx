@@ -1,36 +1,21 @@
 import * as React from "react"
 import type { HeadFC } from "gatsby"
-import styled from '@emotion/styled'
+import { Layout } from "../components/layout"
 
 const IndexPage = () => {
   return (
-    <Main>
-      <div>
-        <Title>Hukan pitäjä</Title>
-      </div>
+    <Layout>
 
-        <div>
-          some text here
-        </div>
-    </Main>
+
+      <div>
+        some text here
+      </div>
+    </Layout>
   )
 }
-
-const Main = styled.main`
-  color: "#232129";
-  padding: 96;
-  fontFamily: "-apple-system, Roboto, sans-serif, serif";
-
-  max-width: 500px;
-  margin: auto;
-`
-
-const Title = styled.h1`
-  text-align: center;
-`
 
 export default IndexPage
 
 
 
-export const Head: HeadFC = () => <title>Home Page</title>
+export const Head: HeadFC = () => <title>Kotisivu</title>
