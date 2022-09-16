@@ -27,7 +27,7 @@ const ContactInfoPage = () => {
             <ExternalLink href='https://facebook.com/groups/hukkary'>
               <>
                 <StaticImage height={30} src="../images/facebook-logo.png" alt="Facebook logo" />
-                <LinkText>Hukka Facebookissa</LinkText>
+                <LinkText>Hucca Facebookissa</LinkText>
               </>
             </ExternalLink>
           </FacebookLinkContainer>
@@ -43,7 +43,7 @@ const ContactInfoPage = () => {
             <InformationTitle>Sähköpostilista</InformationTitle>
             <div>
               <span>Lähetä sähköposti webvastaavalle, että haluaisit listalle. Listalle ei tule spammia, vaan
-                    Hucan tärkeimmät tiedotteet</span>
+                    Hucan tärkeimmät tiedotteet.</span>
             </div>
           </div>
 

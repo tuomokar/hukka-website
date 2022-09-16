@@ -25,14 +25,14 @@ const IndexPage = () => {
 
         <p>
           <span>
-            Hucan pitäjä on osa Aarnimetsän paronikuntaa eli Suomen keskiaikaseura ry:tä, joka taas on osa
+            Hucan pitäjä, eli Keskiaikaseura Hukka ry, on osa Aarnimetsän paronikuntaa eli Suomen keskiaikaseura ry:tä, joka taas on osa
             kansainvälistä Society for Creative Anachronism -järjestöä, joka pyrkii eri tavoin elävöittämään
             keskiajan ja renessanssin kulttuureja.
           </span>
         </p>
 
         <div>
-          <span>Hukalla on monenlaista toimintaa:</span>
+          <span>Hucalla on monenlaista toimintaa:</span>
         <div>
           <ul>
             <li>
