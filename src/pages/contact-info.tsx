@@ -10,23 +10,27 @@ const ContactInfoPage = () => {
   return (
     <Layout>
       <>
-        <LinkContainer>
-          <ExternalLink href='https://facebook.com/groups/hukkary'>
-            <>
-              <StaticImage height={30} src="../images/facebook-logo.png" alt="Facebook logo" />
-              <LinkText>Hukka Facebookissa</LinkText>
-            </>
-          </ExternalLink>
-        </LinkContainer>
-
         <div>
-          <h2>Virkailijat</h2>
+          <h2>Yhteystiedot</h2>
         </div>
 
-        <Officers />
+        <div>
+          <h3>Virkailijat</h3>
+
+          <Officers />
+        </div>
 
         <div>
-          <h2>Muuta:</h2>
+          <h3>Muuta:</h3>
+
+          <FacebookLinkContainer>
+            <ExternalLink href='https://facebook.com/groups/hukkary'>
+              <>
+                <StaticImage height={30} src="../images/facebook-logo.png" alt="Facebook logo" />
+                <LinkText>Hukka Facebookissa</LinkText>
+              </>
+            </ExternalLink>
+          </FacebookLinkContainer>
 
           <div>
             <StaticImage height={30} src="../images/discord-logo.png" alt="Discord logo" />
@@ -65,20 +69,14 @@ const ContactInfoPage = () => {
   )
 }
 
-const LinkContainer = styled.div`
+
+const FacebookLinkContainer = styled.div`
   line-height: 30px;
+  margin-bottom: 16px;
 `
 
 const LinkText = styled.span`
   margin-left: 8px;
-`
-
-const OfficerContainer = styled.div`
-  margin-top: 8px;
-`
-
-const OfficerLineText = styled.span`
-  display: block;
 `
 
 const InformationTitle = styled.h3`
