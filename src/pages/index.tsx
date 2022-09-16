@@ -64,6 +64,16 @@ const IndexPage = () => {
           </span>
         </div>
       </div>
+
+      <div>
+        <p>
+          <span>
+            Nämä nettisivut ovat väliaikaiset vanhalle verkkosivullemme suuntautuneen hyökkäyksen takia.
+            Jos huomaat selkeän ongelman sivuston toimivuudessa (esim. responsiivisuus), ilmoitathan siitä
+            esim. voudille.
+          </span>
+        </p>
+      </div>
       </>
     </Layout>
   )

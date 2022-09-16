@@ -7,18 +7,19 @@ const Header = () => {
   return (
     <Container>
       <div>
-        <Title>Hukan pitäjä</Title>
+        <Title>Hucan pitäjä</Title>
       </div>
 
       <div>
         <Link to='/'>
-          <StaticImage src="../images/hukka-device.png" alt="Hukan vaakuna" />
+          <StaticImage src="../images/hukka-device.png" alt="Hucan vaakuna" />
         </Link>
       </div>
 
       <div>
-        <Link to='/'>Hukan pitäjä</Link>
+        <Link to='/'>Hucan pitäjä</Link>
         <Link to='/contact-info'>Yhteystiedot</Link>
+        <Link to='/calendar'>Kalenteri</Link>
       </div>
     </Container>
   )

@@ -46,8 +46,10 @@ const ContactInfoPage = () => {
           <div>
             <InformationTitle>Jäseneksi liittyminen</InformationTitle>
             <div>
-              <span>Voit tulla mukaan kaikkeen toimintaamme myös ilman jäsenyyttä, mutta jäsenet saavat etuja tapahtumamaksuissa
-                    ja jäsenmaksu tukee yhdistyksen toimintaa.</span>
+              <span>
+                Voit tulla mukaan kaikkeen toimintaamme myös ilman jäsenyyttä, mutta jäsenet saavat etuja tapahtumamaksuissa
+                ja jäsenmaksu tukee yhdistyksen toimintaa.
+              </span>
               <p />
               <span>Lisätietoa jäseneksi liittymisestä ja jäsenlomakkeen linkin löydät kattoseuramme </span>
               <ExternalLink href='https://www.aarnimetsa.org/keskiaikaseura-yhdistyksena/jasenyys/'>
