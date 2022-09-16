@@ -1,54 +1,38 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal TypeScript starter
-</h1>
+# Website of Keskiaikaseura Hukka ry
 
-## 🚀 Quick start
+This is the website for the canton of Hucca, i.e. Keskiaikaseura Hukka ry, a local chapter of the
+[barony of Aarnimetsä](https://www.aarnimetsa.org/), which is part of the global Society for Creative Anachronism
+([SCA](https://www.sca.org/)).
 
-1.  **Create a Gatsby site.**
+The site is still very much under construction. Our previous Wordpress site got hacked and our service provider
+had to take it down at least temporarily. Because the hacker has attacked our site also previously, it's
+unlikely we can get the old site properly secure as simply changing admin and database passwords and cleaning
+up malicious code hasn't worked so far.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal TypeScript starter.
+## Development
 
-    ```shell
-    # create a new Gatsby site using the minimal TypeScript starter
-    npm init gatsby
-    ```
+After having cloned the repo, navigate into the repository's directory, and start it up:
 
-2.  **Start developing.**
+```shell
+npm run develop
+```
 
-    Navigate into your new site’s directory and start it up.
+The site should now be running at http://localhost:8000
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+Any updates to the code should be reflected on the local site in real time.
 
-3.  **Open the code and start customizing!**
+## Other
 
-    Your site is now running at http://localhost:8000!
+The site was bootstrapped with Gatsby. You can learn more about it here:
 
-    Edit `src/pages/index.tsx` to see your site update in real-time!
+  - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-4.  **Learn more**
+  - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+  - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+  - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
+  - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal-ts)
+  - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter-ts)
