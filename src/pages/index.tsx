@@ -27,53 +27,53 @@ const IndexPage = () => {
           <span>
             Hucan pitäjä, eli Keskiaikaseura Hukka ry, on osa Aarnimetsän paronikuntaa eli Suomen keskiaikaseura ry:tä, joka taas on osa
             kansainvälistä Society for Creative Anachronism -järjestöä, joka pyrkii eri tavoin elävöittämään
-            keskiajan ja renessanssin kulttuureja.
+            keskiajan ja renessanssin kulttuureja. Toimimme pääkaupunkiseudulla.
           </span>
         </p>
 
         <div>
           <span>Hucalla on monenlaista toimintaa:</span>
-        <div>
-          <ul>
-            <li>
-              <span>
-                Pääsääntöisesti viikottaisia sunnuntaitapaamisia Oulunkylän nuorisotalo Nuotalla.
-                Tapaamisissa yleensä on opetusta tai luennointia liittyen johonkin keskiaikaiseen käsityötekniikkaan
-                tai muuhun aiheeseen.
-              </span>
-            </li>
-            <li>
-              <span>
-                Viikottaisia taistelutreenejä Viikissä torstaisin (rottinkitaistelu, eli SCA heavy fighting). Kysy näistä marskilta lisää.
-              </span>
-            </li>
-            <li>
-              <span>
-                Viikonlopun mittaisia tai joskus myös pidempiä harrastajille tarkoitettuja keskiaikatapahtumia, joissa pukeudutaan keskiaikaisesti,
-                tehdään erilaisia keskiaikaan liittyviä aktiviteetteja (kuten ruoanlaittoa, jousiammuntaa, taistelua, tanssia, laulua, käsitöitä ysm. ).
-                Yleensä tapahtumissa on myös keskiaikaiset erittäin kattavat pidot.
-              </span>
-            </li>
-          </ul>
+          <div>
+            <ul>
+              <li>
+                <span>
+                  Pääsääntöisesti viikottaisia sunnuntaitapaamisia Oulunkylän nuorisotalo Nuotalla.
+                  Tapaamisissa yleensä on opetusta tai luennointia liittyen johonkin keskiaikaiseen käsityötekniikkaan
+                  tai muuhun aiheeseen (esim. jousiammuntaa, tanssia yms.).
+                </span>
+              </li>
+              <li>
+                <span>
+                  Viikottaisia taistelutreenejä Viikissä torstaisin (rottinkitaistelu, eli SCA heavy fighting). Kysy näistä marskilta lisää!
+                </span>
+              </li>
+              <li>
+                <span>
+                  Viikonlopun mittaisia tai joskus myös pidempiä harrastajille tarkoitettuja keskiaikatapahtumia, joissa pukeudutaan keskiaikaisesti,
+                  tehdään erilaisia keskiaikaan liittyviä aktiviteetteja (kuten ruoanlaittoa, jousiammuntaa, taistelua, tanssia, laulua, käsitöitä ysm. ).
+                  Yleensä tapahtumissa on myös keskiaikaiset erittäin kattavat pidot.
+                </span>
+              </li>
+            </ul>
 
-          <span>
-            Erilaisista aktiviteeteistamme voit lukea lisää kattoseuramme&nbsp;
-            <ExternalLink href='https://www.aarnimetsa.org/sivu-keskiaika-harrastuksena/'>
-              Suomen Keskiaikaseuran sivuilta
-            </ExternalLink>
-          </span>
+            <span>
+              Erilaisista aktiviteeteistamme voit lukea lisää kattoseuramme&nbsp;
+              <ExternalLink href='https://www.aarnimetsa.org/sivu-keskiaika-harrastuksena/'>
+                Suomen Keskiaikaseuran sivuilta
+              </ExternalLink>
+            </span>
+          </div>
         </div>
-      </div>
 
-      <div>
-        <p>
-          <span>
-            Nämä nettisivut ovat väliaikaiset vanhalle verkkosivullemme suuntautuneen hyökkäyksen takia.
-            Jos huomaat selkeän ongelman sivuston toimivuudessa (esim. responsiivisuus), ilmoitathan siitä
-            esim. voudille.
-          </span>
-        </p>
-      </div>
+        <div>
+          <p>
+            <span>
+              Nämä nettisivut ovat väliaikaiset vanhalle verkkosivullemme suuntautuneen hyökkäyksen takia.
+              Jos huomaat selkeän ongelman sivuston toimivuudessa (esim. responsiivisuus), ilmoitathan siitä
+              esim. voudille.
+            </span>
+          </p>
+        </div>
       </>
     </Layout>
   )
