@@ -24,7 +24,7 @@ export const officers: Officer[] = [
   { mundaneName: 'Sini Lindgren', scaName: 'Walborg Liucoin', role: chastellainRole },
   { mundaneName: 'Liisa Oila', scaName: 'Elena', role: treasurerRole },
   { mundaneName: 'Kirsi Karhapää', scaName: 'Izabella del Cacco', role: ministerOfArtsAndSciencesRole },
-  { mundaneName: 'Jukka Lindgren', scaName: 'Johann von Hasemgraben', role: heraldRole },
+  { mundaneName: 'Jukka Lindgren', scaName: 'Johann vom Hasengraben', role: heraldRole },
   { mundaneName: 'Juhana Seppänen', scaName: 'Sanginkylän Juhana', role: heavyMarshalRole },
   { mundaneName: 'Mari Voipio', scaName: 'Johanna aff Hucka', role: webmasterRole },
 ]
