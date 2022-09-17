@@ -1,5 +1,5 @@
 import * as React from "react"
-import type { HeadFC } from "gatsby"
+import { HeadFC, Link } from "gatsby"
 import { Layout } from "../components/layout"
 import { ExternalLink } from "../components/external-link"
 
@@ -11,13 +11,13 @@ const IndexPage = () => {
 
         <p>
           <span>
-            Tervetuloa Hucan keskiaikaiseen pitäjään!
+            Tervetuloa Hucan keskiaikaiseen pitäjään, eli Keskiaikaseura Hukka ry:n toimintaan. Elävöitämme keskiaikaa
+            ja renessanssia pääkaupunkiseudulla.
           </span>
         </p>
 
         <p>
           <span>
-            Meitä yhdistää kiinnostus keskiaikaan ja renessanssiin.
             Tutkimme ja harrastamme keskiaikaista taistelua, tanssia, laulua, ruoanlaittoa, heraldiikkaa, puu- ja nahkatöitä,
             rakentelemme haarniskoita, ompelemme pukuja ja tutustumme keskiajan tapoihin.
           </span>
@@ -25,7 +25,7 @@ const IndexPage = () => {
 
         <p>
           <span>
-            Hucan pitäjä, eli Keskiaikaseura Hukka ry, on osa Aarnimetsän paronikuntaa eli Suomen keskiaikaseura ry:tä, joka taas on osa
+            Hucan pitäjä on osa Aarnimetsän paronikuntaa eli Suomen keskiaikaseura ry:tä, joka taas on osa
             kansainvälistä Society for Creative Anachronism -järjestöä, joka pyrkii eri tavoin elävöittämään
             keskiajan ja renessanssin kulttuureja. Toimimme pääkaupunkiseudulla.
           </span>
@@ -57,9 +57,11 @@ const IndexPage = () => {
             </ul>
 
             <span>
-              Erilaisista aktiviteeteistamme voit lukea lisää kattoseuramme&nbsp;
+              <Link to='/calendar'>Kalenteri-sivulta</Link> löydät syksyn aikataulun.
+
+              Erilaisista aktiviteeteistamme voit myös tarkemmin lukea lisää kattoseuramme&nbsp;
               <ExternalLink href='https://www.aarnimetsa.org/sivu-keskiaika-harrastuksena/'>
-                Suomen Keskiaikaseuran sivuilta
+                Suomen Keskiaikaseuran sivuilta.
               </ExternalLink>
             </span>
           </div>
@@ -69,7 +71,7 @@ const IndexPage = () => {
           <p>
             <span>
               Nämä nettisivut ovat väliaikaiset vanhalle verkkosivullemme suuntautuneen hyökkäyksen takia.
-              Jos huomaat selkeän ongelman sivuston toimivuudessa (esim. responsiivisuus), ilmoitathan siitä
+              Jos huomaat selkeän ongelman sivuston toimivuudessa, ilmoitathan siitä
               esim. voudille.
             </span>
           </p>

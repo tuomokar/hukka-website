@@ -106,12 +106,14 @@ const Calendar: FC = () => (
       <h2>Kalenteri</h2>
 
       <div>
-        <h3>Sunnuntaitapaamiset Nuotalla</h3>
+        <h3>Sunnuntaitapaamiset Oulunkylän nuorisotalo Nuotalla</h3>
 
         <div>
           <p>
             <span>
-              Tapaamiset ovat sunnuntaisin klo 18.00 alkaen. Opetus on pääosin ilmaista, mutta joskus saattaa olla pieniä materiaalimaksuja.
+              Tapaamisissa tehdään joka viikko jotakin keskiaikaan liittyvää jollain tietyllä teemalla. Voit tulla mukaan
+              pääosin ilmoittamatta - joissakin saatetaan pyytää ilmoittautuminen etukäteen, että osataan varautua tarvittavalla
+              määrällä materiaalia. Tapaamiset ovat sunnuntaisin klo 18.00 alkaen. Opetus on pääosin ilmaista, mutta joskus saattaa olla pieniä materiaalimaksuja.
             </span>
           </p>
           <p>
@@ -165,6 +167,16 @@ const Calendar: FC = () => (
           </ul>
         </div>
       </EventsContainer>
+
+      <div>
+        <h3>Taistelutreenit</h3>
+
+        <div>
+          Taistelutreenejä on Viikissä joka torstai, yleensä klo 18 alkaen. Lainatavaroita löytyy jonkun
+          verran, joten alkuun et tarvitse mitään. Marski voi kertoa tarkan osoitteen (yhteystiedot-sivulta löytyy sähköposti).
+        </div>
+      </div>
+
     </>
   </Layout>
 )
