@@ -2,3 +2,6 @@
 node_modules
 public
 tsconfig.json
+
+# Auto generated file
+src/gatsby-types.d.ts
