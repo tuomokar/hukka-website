@@ -9,6 +9,8 @@ had to take it down at least temporarily. Because the hacker has attacked our si
 unlikely we can get the old site properly secure as simply changing admin and database passwords and cleaning
 up malicious code hasn't worked so far.
 
+The site runs at https://www.hukka.org.
+
 ## Development
 
 After having cloned the repo, navigate into the repository's directory, and start it up:
