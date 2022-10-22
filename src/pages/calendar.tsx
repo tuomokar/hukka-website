@@ -1,18 +1,14 @@
 import styled from "@emotion/styled";
 import { HeadFC, Script } from "gatsby";
 import React, { FC, ReactElement, ReactNode } from "react";
+import { CanceledActivity } from "../components/CanceledActivity";
 import { ExternalLink } from "../components/external-link";
 import { Layout } from "../components/layout";
-
-type SundayActivity = {
-  date: string;
-  title: ReactNode;
-  additionalDescription?: string | ReactElement;
-  noMeeting?: boolean;
-};
+import { SundayActivity } from "../components/SundayActivity";
+import { SundayActivity as SundayActivityType } from "../types/Activities";
 
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
-const sundayActivities: SundayActivity[] = [
+const sundayActivities: SundayActivityType[] = [
   { date: "21.8.", title: "Syyskauden avaus: uusien ilta sekä eri keskiajan vuosisatojen vaatteiden esittelyä" },
   { date: "28.8.", title: "Vapaamuotoisesti käsitöitä sekä apua tarjolla mm. ompeluun ja kaavoittamiseen" },
   { date: "4.9.", title: "Scriptorium: kalligrafiaa ja illuminaatiota" },
@@ -25,7 +21,8 @@ const sundayActivities: SundayActivity[] = [
     date: "16.10.",
     title: (
       <>
-        Kasvivärjäys <s>sekä jousiammuntaa</s> (jousiammunta peruttu sairaustapauksen takia)
+        Kasvivärjäys sekä{" "}
+        <CanceledActivity activity="jousiammuntaa" reason="jousiammunta peruttu sairaustapauksen takia" />
       </>
     ),
     additionalDescription: (
@@ -63,7 +60,7 @@ const sundayActivities: SundayActivity[] = [
       </>
     ),
   },
-  { date: "23.10.", title: "Helmikirjonta: jatkoa" },
+  { date: "23.10.", title: "Helmikirjonta: jatkoa", isCanceled: true, cancelReason: "siirretty keväälle" },
   { date: "30.10.", noMeeting: true, title: "" },
   { date: "6.11.", noMeeting: true, title: "" },
   { date: "13.11.", title: "Scriptorium: kalligrafiaa ja illuminaatiota" },
@@ -206,19 +203,27 @@ const Calendar: FC = () => (
 
         <div>
           <ul>
-            {sundayActivities.map(({ date, title, additionalDescription, noMeeting }) => (
-              <SundayActivityListItem>
-                <>
-                  <span>{noMeeting ? <>{date}</> : <b>{date}</b>}</span>&nbsp;
-                  <span>{noMeeting ? "(ei tapaamista)" : title}</span>
-                  {additionalDescription && (
-                    <ul>
-                      <li>{additionalDescription}</li>
-                    </ul>
-                  )}
-                </>
-              </SundayActivityListItem>
-            ))}
+            {sundayActivities.map(
+              ({
+                date,
+                title,
+                additionalDescription = null,
+                noMeeting = false,
+                isCanceled = false,
+                cancelReason = null,
+              }) => (
+                <SundayActivityListItem>
+                  <SundayActivity
+                    date={date}
+                    title={title}
+                    additionalDescription={additionalDescription}
+                    noMeeting={noMeeting}
+                    isCanceled={isCanceled}
+                    cancelReason={cancelReason}
+                  />
+                </SundayActivityListItem>
+              )
+            )}
           </ul>
         </div>
       </div>
