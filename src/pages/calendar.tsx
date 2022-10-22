@@ -174,15 +174,18 @@ const events: Event[] = [
         <p>
           <span>
             Lisätietoa löytyy mm. &nbsp;
-            <ExternalLink href="https://drachenwald.sca.org/events/calendar/#/polderslot/2023-06-14/drachenwald-s-30th-year-anniversary-celebration-and-coronation">
-              Drachenwaldin kalenterista
+            <ExternalLink href="https://30year.drachenwald.sca.org/">
+              Tapahtuman nettisivuilta (huom. sivusto on englanniksi).
             </ExternalLink>
-            &nbsp;(tarkemmin tietoa tullee piakkoin). Tapahtumaan lähteviä suomalaisia varten on myös tehty{" "}
+            &nbsp; Tapahtumaan lähteviä suomalaisia varten on myös tehty &nbsp;
             <ExternalLink href="https://www.facebook.com/groups/dw30matkalaiset/">
               oma ryhmänsä Facebookiin
             </ExternalLink>
             .
           </span>
+        </p>
+        <p>
+          <span>Huom. tapahtuman ilmoittautuminen avautuu 8.12.2022 klo 20.30 Suomen aikaa.</span>
         </p>
       </>
     ),
