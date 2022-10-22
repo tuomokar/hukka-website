@@ -1,6 +1,6 @@
 import styled from "@emotion/styled";
-import { HeadFC, Script } from "gatsby";
-import React, { FC, ReactElement, ReactNode } from "react";
+import { HeadFC } from "gatsby";
+import React, { FC, ReactElement } from "react";
 import { CanceledActivity } from "../components/CanceledActivity";
 import { ExternalLink } from "../components/external-link";
 import { Layout } from "../components/layout";
@@ -225,7 +225,7 @@ const Calendar: FC = () => (
                 isCanceled = false,
                 cancelReason = null,
               }) => (
-                <SundayActivityListItem>
+                <SundayActivityListItem key={date}>
                   <SundayActivity
                     date={date}
                     title={title}
@@ -257,7 +257,7 @@ const Calendar: FC = () => (
         <div>
           <ul>
             {events.map(({ title, date, description }) => (
-              <li>
+              <li key={date}>
                 <span>
                   <b>{date}</b>
                 </span>

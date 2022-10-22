@@ -1,7 +1,5 @@
 import * as React from "react";
 import styled from "@emotion/styled";
-import { Link } from "gatsby";
-import { StaticImage } from "gatsby-plugin-image";
 import { Header } from "./header";
 
 type Props = {

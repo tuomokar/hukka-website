@@ -16,10 +16,15 @@
     "typecheck": "tsc --noEmit",
     "prepare": "husky install",
     "format": "prettier --write .",
-    "format-check": "prettier --check ."
+    "format-check": "prettier --check .",
+    "lint": "eslint . --ext .ts,.tsx",
+    "lint-fix": "eslint src --ext .ts,.tsx --fix"
   },
   "lint-staged": {
-    "**/*": "prettier --write --ignore-unknown"
+    "**/*.{js,jsx,ts,tsx}": [
+      "eslint",
+      "prettier --write --ignore-unknown"
+    ]
   },
   "dependencies": {
     "@emotion/react": "^11.10.4",
@@ -39,6 +44,9 @@
     "@types/node": "^17.0.45",
     "@types/react": "^18.0.17",
     "@types/react-dom": "^18.0.6",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-react-app": "^7.0.1",
+    "eslint-plugin-react": "^7.31.10",
     "husky": "^8.0.1",
     "lint-staged": "^13.0.3",
     "prettier": "2.7.1",
