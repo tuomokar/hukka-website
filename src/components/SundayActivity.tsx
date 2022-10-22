@@ -14,12 +14,12 @@ const getTitle = ({
   isCanceled,
   cancelReason,
 }: Pick<Props, "noMeeting" | "title" | "isCanceled" | "cancelReason">) => {
-  if (noMeeting) {
-    return "(ei tapaamista)";
+  if (isCanceled) {
+    return <CanceledActivity activity={title} reason={cancelReason} noMeeting={noMeeting} />;
   }
 
-  if (isCanceled) {
-    return <CanceledActivity activity={title} reason={cancelReason} />;
+  if (noMeeting) {
+    return "(ei tapaamista)";
   }
 
   return title;

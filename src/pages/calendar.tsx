@@ -22,7 +22,11 @@ const sundayActivities: SundayActivityType[] = [
     title: (
       <>
         Kasvivärjäys sekä{" "}
-        <CanceledActivity activity="jousiammuntaa" reason="jousiammunta peruttu sairaustapauksen takia" />
+        <CanceledActivity
+          activity="jousiammuntaa"
+          reason="jousiammunta peruttu sairaustapauksen takia"
+          noMeeting={false}
+        />
       </>
     ),
     additionalDescription: (
@@ -60,7 +64,13 @@ const sundayActivities: SundayActivityType[] = [
       </>
     ),
   },
-  { date: "23.10.", title: "Helmikirjonta: jatkoa", isCanceled: true, cancelReason: "siirretty keväälle" },
+  {
+    date: "23.10.",
+    title: "Helmikirjonta: jatkoa",
+    isCanceled: true,
+    cancelReason: "siirretty keväälle",
+    noMeeting: true,
+  },
   { date: "30.10.", noMeeting: true, title: "" },
   { date: "6.11.", noMeeting: true, title: "" },
   { date: "13.11.", title: "Scriptorium: kalligrafiaa ja illuminaatiota" },
