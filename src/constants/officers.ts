@@ -30,6 +30,13 @@ const senechalRole: OfficerRole = {
     "paronikuntaan ja kuningaskuntaan. Vouti myös hoitaa kaikki ne tehtävät, jotka eivät kuulu " +
     "muille virkailijoille. Puheenjohtaja on luonnollisesti hallituksen jäsen.",
 };
+
+const viceSenechalRole: OfficerRole = {
+  scaName: "Varavouti",
+  mundaneName: "varapuheenjohtaja",
+  email: "vouti (at) hucca.org",
+  description: "Varavouti toimii voudin apuna ja tarvittaessa sijaistaa voutia.",
+};
 const chastellainRole: OfficerRole = {
   scaName: "Kastellaani",
   mundaneName: "usien jäsenten vastaava",
@@ -82,18 +89,29 @@ const webmasterRole: OfficerRole = {
     "Webvastaava vastaa yhdistyksen kotisivujen päivittämisestä sekä näin sovittaessa myös " +
     "postituslistasta. Webvastaava voi olla joko hallituksen jäsen tai toimihenkilö.",
 };
+const scribeRole: OfficerRole = {
+  scaName: "Kirjuri",
+  mundaneName: null,
+  email: "kirjuri@hucca.org",
+  description:
+    "Kirjuri koordinoi kunniakirjojen tuottamista ja edistää kalligrafian harrastusta. Pitäjän kirjurille riittää " +
+    "hyvin kiinnostus aiheeseen - taitoja voi kartuttaa viran ohella esimerkiksi järjestämälä kirjurinpajoja (scriptorium). " +
+    "Kirjuri voi olla joko hallituksen jäsen tai toimihenkilö.",
+};
 
 export const getOfficerRoleName = ({ scaName, mundaneName }: OfficerRole): string =>
   !scaName || !mundaneName ? scaName ?? mundaneName : `${scaName} (${mundaneName})`;
 
 export const officerRoles = [
   senechalRole,
+  viceSenechalRole,
   chastellainRole,
   treasurerRole,
   ministerOfArtsAndSciencesRole,
   heraldRole,
   heavyMarshalRole,
   webmasterRole,
+  scribeRole,
 ];
 
 export const officers: Officer[] = [
