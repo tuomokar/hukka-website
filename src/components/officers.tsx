@@ -1,21 +1,12 @@
 import styled from "@emotion/styled";
 import React, { FC } from "react";
-import { officers } from "../constants/officers";
-
-type NameLineProps = { roleScaName: string | null; roleMundaneName: string | null };
-const OfficerRoleLine: FC<NameLineProps> = ({ roleScaName, roleMundaneName }) => {
-  if (!roleScaName || !roleMundaneName) {
-    return <OfficerLineText>{roleScaName ?? roleMundaneName}</OfficerLineText>;
-  }
-
-  return <OfficerLineText>{`${roleScaName} (${roleMundaneName})`}</OfficerLineText>;
-};
+import { getOfficerRoleName, officers } from "../constants/officers";
 
 const Officers: FC = () => (
   <div>
     {officers.map(({ scaName, mundaneName, role }) => (
       <OfficerContainer key={scaName}>
-        <OfficerRoleLine roleScaName={role.scaName} roleMundaneName={role.mundaneName} />
+        <OfficerLineText>{getOfficerRoleName(role)}</OfficerLineText>
         <OfficerLineText>{`${scaName} / ${mundaneName}`}</OfficerLineText>
         <OfficerEmailLineText>{`${role.email}`}</OfficerEmailLineText>
       </OfficerContainer>
