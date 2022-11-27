@@ -89,26 +89,6 @@ type Event = {
 
 const events: Event[] = [
   {
-    date: "4.-6.11.",
-    title: "Kekrijuhla",
-    description: (
-      <>
-        <p>
-          <span>
-            Hucan pitäjän perinteisesti tuleva Kekrijuhla tulee taas. Tapahtuma on tällä hetkellä täynnä koko
-            viikonlopuksi tulijoiden osalta, mutta päiväkävijäksi vielä mahtuu.
-          </span>
-        </p>
-        <p>
-          <span>
-            Lisätietoa löydät tapahtuman{" "}
-            <ExternalLink href="https://kekrijuhla.wordpress.com/">nettisivuilta</ExternalLink>.
-          </span>
-        </p>
-      </>
-    ),
-  },
-  {
     date: "2.-4.12",
     title: "Annanpäivät",
     description: (
