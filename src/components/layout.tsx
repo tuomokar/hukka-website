@@ -17,12 +17,13 @@ const Layout: React.FC<Props> = ({ children }) => {
 };
 
 const Main = styled.div`
-  color: "#232129";
-  padding: 96;
-  fontfamily: "-apple-system, Roboto, sans-serif, serif";
+  color: #232129;
+  font-family: "-apple-system, Roboto, sans-serif, serif";
 
   max-width: 500px;
   margin: auto;
+
+  margin-bottom: 100px;
 `;
 
 export { Layout };
