@@ -1,7 +1,6 @@
 import styled from "@emotion/styled";
 import { HeadFC } from "gatsby";
 import React, { FC, ReactElement } from "react";
-import { CanceledActivity } from "../components/CanceledActivity";
 import { ExternalLink } from "../components/external-link";
 import { Layout } from "../components/layout";
 import { SundayActivity } from "../components/SundayActivity";
@@ -9,76 +8,10 @@ import { SundayActivity as SundayActivityType } from "../types/Activities";
 
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
 const sundayActivities: SundayActivityType[] = [
-  { date: "21.8.", title: "Syyskauden avaus: uusien ilta sekä eri keskiajan vuosisatojen vaatteiden esittelyä" },
-  { date: "28.8.", title: "Vapaamuotoisesti käsitöitä sekä apua tarjolla mm. ompeluun ja kaavoittamiseen" },
-  { date: "4.9.", title: "Scriptorium: kalligrafiaa ja illuminaatiota" },
-  { date: "11.9.", title: "Jousiammuntaa" },
-  { date: "18.9.", title: "1500-luvun vaatetyöpaja: Saksa ja Italia" },
-  { date: "25.9.", title: "Sinetit: opetusta ja työpaja" },
-  { date: "2.10.", title: "Scriptorium: kalligrafiaa ja illuminaatiota" },
-  { date: "9.10.", title: "Helmikirjonta: alkeet" },
   {
-    date: "16.10.",
-    title: (
-      <>
-        Kasvivärjäys sekä{" "}
-        <CanceledActivity
-          activity="jousiammuntaa"
-          reason="jousiammunta peruttu sairaustapauksen takia"
-          noMeeting={false}
-        />
-      </>
-    ),
-    additionalDescription: (
-      <>
-        <p>Kasvivärjäys on jatkoa keväällä pidetylle värjäystyöpajalle, mutta vielä ehdit mukaan!</p>
-        <p>
-          <span>Ilmoita tulostasi etukäteen vaikka voudille.</span>
-        </p>
-        <p>
-          <span>Jotta pääsemme heti toimeen, seuraa näitä ohjeita</span>
-        </p>
-        <ul>
-          <li>
-            <span>Varaa mukaan 100g lankaa (100% villaa tai sukkalankaa 75% villa 25% polyamidi)</span>
-          </li>
-          <li>
-            <span>Vyyhditä lankasi valmiiksi 50g vyyhdiksi ja laita myös haltijalanka</span>
-          </li>
-          <li>
-            <span>Laita haltijalankaan teippi ja merkitse siihen oma nimesi</span>
-          </li>
-          <li>
-            <span>
-              Kastele vyyhti/vyyhdit liottamalla vedessä tunnin ajan. Puristeltuasi ylimääräiset vedet pois, pakkaa
-              vyyhdit muovipussiin, jolla saat kuljetettua ne kosteina.
-            </span>
-          </li>
-        </ul>
-        <p>
-          <span>
-            Jos vyyhditys ei ole tuttua, sen voi tehdä myös paikanpäällä, mutta silloin varaudu siihen, että ehdit
-            purettaa vain yhden 50g vyyhdin.
-          </span>
-        </p>
-      </>
-    ),
+    date: "15.1.",
+    title: "Kevätkauden avaus: Vapaamuotoista käsitöiden tekemistä sekä keskustelua kahvin ja teen parissa",
   },
-  {
-    date: "23.10.",
-    title: "Helmikirjonta: jatkoa",
-    isCanceled: true,
-    cancelReason: "siirretty keväälle",
-    noMeeting: true,
-  },
-  { date: "30.10.", noMeeting: true, title: "" },
-  { date: "6.11.", noMeeting: true, title: "" },
-  { date: "13.11.", title: "Scriptorium: kalligrafiaa ja illuminaatiota" },
-  { date: "20.11.", title: "Jousiammuntaa" },
-  { date: "27.11.", title: "Kaksipuoleinen lautanauha ja brokadilautanauha" },
-  { date: "4.12.", noMeeting: true, title: "" },
-  { date: "11.12.", title: "Scriptorium: kalligrafiaa ja illuminaatiota" },
-  { date: "18.12.", title: "Pikkujoulut" },
 ];
 
 type Event = {
@@ -89,24 +22,6 @@ type Event = {
 
 const events: Event[] = [
   {
-    date: "2.-4.12",
-    title: "Annanpäivät",
-    description: (
-      <>
-        <p>
-          <span>
-            Sisarseuramme Poukan (Kotkan Keskiaikaseura) järjestämä tapahtuma Pyhällön Lintukodossa. Ilmoittautuminen
-            tapahtumaan avautuu 7.10. klo 18.00. Lisätietoa löydät mm.{" "}
-            <ExternalLink href="https://www.facebook.com/groups/149121295016/posts/10159011887470017/">
-              Facebookista
-            </ExternalLink>
-            .
-          </span>
-        </p>
-      </>
-    ),
-  },
-  {
     date: "20.-22.1.2023",
     title: "Talvi-ilta",
     description: (
@@ -114,7 +29,7 @@ const events: Event[] = [
         <p>
           <span>
             Sisarseuramme Humalasalon (Hämeen Keskiaika) järjestämä tapahtuma Parkanossa. Ilmoittautuminen tapahtumaan
-            avautuu 1.12.2022 klo 18.00. Lisätietoa löydät mm.{" "}
+            on auki. Lisätietoa löydät mm.
             <ExternalLink href="http://www.talvi-ilta.humalasalo.net/">tapahtuman kotisivuilta</ExternalLink>.
           </span>
         </p>
@@ -129,7 +44,7 @@ const events: Event[] = [
         <p>
           <span>
             Sisarseuramme Unikankareen (Turun keskiaikaseura) järjestämä tapahtuma Taivalsalossa. Ilmoittautuminen
-            tapahtumaan avautuu 7.11.2022 klo 20.00. Lisätietoa löydät mm.{" "}
+            tapahtumaan avautuu 7.11.2022 klo 20.00. Lisätietoa löydät mm.&nbsp;
             <ExternalLink href="https://keskiaikaseuraunikankare.fi/sydantalvenjuhla2023">
               tapahtuman kotisivuilta
             </ExternalLink>
@@ -137,6 +52,33 @@ const events: Event[] = [
           </span>
         </p>
       </>
+    ),
+  },
+  {
+    date: "31.3. - 2.4.2023",
+    title: "Ave Cecilia II",
+    description: (
+      <p>
+        <span>Hucan laulamiseen ja musiikkiin keskittyvä tapahtuma tulee taas! Lisätietoa tulee piakkoin.</span>
+      </p>
+    ),
+  },
+  {
+    date: "21. - 23.4.2023",
+    title: "Discendo Tota Aetas - Oppia ikä kaikki III",
+    description: (
+      <p>
+        27.2.2023 klo 18.00 alkaen
+        <span>
+          Sisarseuramme Poukan (Kotkan Keskiaikaseura) järjestämä tapahtuma Pyhällön Lintukodossa. Tarkoituksena
+          tapahtumassa on oppia uusia asioita. Ilmoittautuminen tapahtumaan avautuu 27.2. klo 18.00. Lisätietoa löydät
+          mm.&nbsp;
+          <ExternalLink href="https://www.aarnimetsa.org/tapahtumakalenteri/#/aarnimetsa-poukka/2023-04-21/discendo-tota-aetas-iii">
+            Aarnimetsän kalenterista
+          </ExternalLink>
+          .
+        </span>
+      </p>
     ),
   },
   {
@@ -153,11 +95,11 @@ const events: Event[] = [
         </p>
         <p>
           <span>
-            Lisätietoa löytyy mm. &nbsp;
+            Lisätietoa löytyy mm.&nbsp;
             <ExternalLink href="https://30year.drachenwald.sca.org/">
               Tapahtuman nettisivuilta (huom. sivusto on englanniksi).
             </ExternalLink>
-            &nbsp; Tapahtumaan lähteviä suomalaisia varten on myös tehty &nbsp;
+            &nbsp; Tapahtumaan lähteviä suomalaisia varten on myös tehty&nbsp;
             <ExternalLink href="https://www.facebook.com/groups/dw30matkalaiset/">
               oma ryhmänsä Facebookiin
             </ExternalLink>
@@ -165,7 +107,11 @@ const events: Event[] = [
           </span>
         </p>
         <p>
-          <span>Huom. tapahtuman ilmoittautuminen avautuu 8.12.2022 klo 20.30 Suomen aikaa.</span>
+          <span>
+            Huom. tapahtuman ilmoittautuminen on avautunut jo ja suuri osa sisänukkumapaikoista on mennyt täyteen. Jos
+            haluat tapahtumaan mukaan, kannattaa silti ilmoittautua vielä. Sisäpaikkoja saatta olla vielä ja peruutuksia
+            varmasti tulee. Toki voi lähteä halutessaan myös teltan kanssa sinne.
+          </span>
         </p>
       </>
     ),
@@ -191,6 +137,9 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>Nuotan osoite Kylänvanhimmantie 25B. Se on aivan Oulunkylän juna-aseman vieressä.</span>
+          </p>
+          <p>
+            <span>Kevään ohjelma täydentyy aivan piakkoin. Luvassa on kaikenlaista mielenkiintoista!</span>
           </p>
         </div>
 
@@ -267,7 +216,7 @@ const SundayActivityListItem = styled.li`
 `;
 
 const EventsContainer = styled.div`
-  35px;
+  margin-top: 35px;
 `;
 
 export default Calendar;
