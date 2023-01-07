@@ -10,7 +10,7 @@ import { SundayActivity as SundayActivityType } from "../types/Activities";
 const sundayActivities: SundayActivityType[] = [
   {
     date: "15.1.",
-    title: "Kevätkauden avaus: Vapaamuotoista käsitöiden tekemistä sekä keskustelua kahvin ja teen parissa",
+    title: "Kevätkauden avaus: Lautanauhan perusteet",
   },
 ];
 
