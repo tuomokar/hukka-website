@@ -44,7 +44,7 @@ const events: Event[] = [
         <p>
           <span>
             Sisarseuramme Unikankareen (Turun keskiaikaseura) järjestämä tapahtuma Taivalsalossa. Ilmoittautuminen
-            tapahtumaan avautuu 7.11.2022 klo 20.00. Lisätietoa löydät mm.&nbsp;
+            tapahtumaan on auki. Lisätietoa löydät mm.&nbsp;
             <ExternalLink href="https://keskiaikaseuraunikankare.fi/sydantalvenjuhla2023">
               tapahtuman kotisivuilta
             </ExternalLink>
