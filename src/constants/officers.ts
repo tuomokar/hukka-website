@@ -57,7 +57,7 @@ const treasurerRole: OfficerRole = {
 };
 const ministerOfArtsAndSciencesRole: OfficerRole = {
   scaName: null,
-  mundaneName: "Tieteiden ja taiteiden vastaava",
+  mundaneName: "Tiede- ja taideneuvos",
   email: "moas (at) hucca.org",
   description:
     "Tiede- ja taideneuvos toimii tieteiden ja taiteiden harrastajien yhteyshenkilönä. Kiinnostus " +
@@ -66,7 +66,7 @@ const ministerOfArtsAndSciencesRole: OfficerRole = {
 };
 const heraldRole: OfficerRole = {
   scaName: "Airut",
-  mundaneName: null,
+  mundaneName: "Vaakuna- ja nimivastaava",
   email: "airut (at) hucca.org",
   description:
     "Airut edistää heraldiikan harrastusta ja toimii nimi- ja vaakunarekisterin yhdyshenkilönä. " +
