@@ -15,7 +15,7 @@ const sundayActivities: SundayActivityType[] = [
       <>
         <p>
           <span>
-            Ensimmäinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.{" "}
+            Ensimmäinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.&nbsp;
             <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
               Facebookista
             </ExternalLink>
@@ -44,7 +44,7 @@ const sundayActivities: SundayActivityType[] = [
       <>
         <p>
           <span>
-            Jousiammunnan lisäksi toinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.{" "}
+            Jousiammunnan lisäksi toinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.&nbsp;
             <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
               Facebookista
             </ExternalLink>
@@ -73,7 +73,7 @@ const sundayActivities: SundayActivityType[] = [
       <>
         <p>
           <span>
-            Jousiammunnan lisäksi kolmas osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.{" "}
+            Jousiammunnan lisäksi kolmas osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.&nbsp;
             <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
               Facebookista
             </ExternalLink>
@@ -157,6 +157,24 @@ const events: Event[] = [
           </span>
         </p>
       </>
+    ),
+  },
+  {
+    date: "27.-29.1.2023",
+    title: "Kuningaskunnan online-yliopisto",
+    description: (
+      <p>
+        <span>
+          Kansainvälinen tieteisiin ja taiteisiin keskittyvä online-tapahtuma. Osallistuminen on ilmaista, mutta
+          ilmoittautuminen täytyy tehdä etukäteen. Lisätietoa suomeksi löydät mm.&nbsp;
+          <ExternalLink href="https://www.facebook.com/groups/149121295016/posts/10159309906920017/">
+            Facebookista
+          </ExternalLink>
+          . Tapahtuman nettisivut löydät&nbsp;
+          <ExternalLink href="https://ku-online.drachenwald.sca.org/">täältä (englanniksi)</ExternalLink>. Sieltä löydät
+          myös ilmoittautumisohjeet.
+        </span>
+      </p>
     ),
   },
   {
