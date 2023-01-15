@@ -59,8 +59,8 @@ const IndexPage = () => {
             </ul>
 
             <p>
-              <Link to="/calendar">Kalenteri-sivulta</Link> löydät kevään aikataulun heti kun se ilmestyy. Erilaisista
-              aktiviteeteistamme voit myös tarkemmin lukea lisää kattoseuramme&nbsp;
+              <Link to="/calendar">Kalenteri-sivulta</Link> löydät kevään aikataulun. Erilaisista aktiviteeteistamme
+              voit myös tarkemmin lukea lisää kattoseuramme&nbsp;
               <ExternalLink href="https://www.aarnimetsa.org/sivu-keskiaika-harrastuksena/">
                 Suomen Keskiaikaseuran sivuilta.
               </ExternalLink>
@@ -76,10 +76,7 @@ const IndexPage = () => {
 
             <div>
               <p>
-                <span>Kevään 2023 sunnuntaitapaamiset alkavat aivan piakkoin, näillä näkymin 15.1.</span>
-              </p>
-              <p>
-                <span>Tästä tulee lisätietoa aivan piakkoin.</span>
+                <span>Kevään 2023 sunnuntaitapaamiset alkavat sunnuntaina 15.1.</span>
               </p>
             </div>
           </div>
