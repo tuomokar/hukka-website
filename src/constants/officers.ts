@@ -17,14 +17,14 @@ type OfficerRoleNameOption3 = {
   mundaneName: string;
 };
 type OfficerRole = {
-  email: string;
+  emailStart: string;
   description: string;
 } & (OfficerRoleNameOption1 | OfficerRoleNameOption2 | OfficerRoleNameOption3);
 
 const senechalRole: OfficerRole = {
   scaName: "Vouti",
   mundaneName: "puheenjohtaja",
-  email: "vouti (at) hucca.org",
+  emailStart: "vouti",
   description:
     "Vouti on yhdistyksen puheenjohtaja. Hän edustaa Hukkaa toisaalta viranomaisiin ja toisaalta " +
     "paronikuntaan ja kuningaskuntaan. Vouti myös hoitaa kaikki ne tehtävät, jotka eivät kuulu " +
@@ -34,13 +34,13 @@ const senechalRole: OfficerRole = {
 const viceSenechalRole: OfficerRole = {
   scaName: "Varavouti",
   mundaneName: "varapuheenjohtaja",
-  email: "vouti (at) hucca.org",
+  emailStart: "vouti",
   description: "Varavouti toimii voudin apuna ja tarvittaessa sijaistaa voutia.",
 };
 const chastellainRole: OfficerRole = {
   scaName: "Kastellaani",
   mundaneName: "usien jäsenten vastaava",
-  email: "kastellaani (at) hucca.org",
+  emailStart: "kastellaani",
   description:
     "Kastellaani opastaa uusia jäseniä. Virka voi olla helpompi jos on harrastanut jo muutaman vuoden " +
     "jotta voi helpommin antaa uusille kiinnostuneille vinkkejä siitä, keneltä kannattaa mitäkin kysyä. Toisaalta " +
@@ -50,7 +50,7 @@ const chastellainRole: OfficerRole = {
 const treasurerRole: OfficerRole = {
   scaName: null,
   mundaneName: "Rahastonhoitaja",
-  email: "rahainvartija (at) hucca.org",
+  emailStart: "rahainvartija",
   description:
     "Rahainvartijan pääasiallinen tehtävä on hoitaa Hukan talousasioita sekä laatia tilinpäätös. " +
     "Rahainvartija on hallituksen jäsen.",
@@ -58,7 +58,7 @@ const treasurerRole: OfficerRole = {
 const ministerOfArtsAndSciencesRole: OfficerRole = {
   scaName: null,
   mundaneName: "Tiede- ja taideneuvos",
-  email: "moas (at) hucca.org",
+  emailStart: "moas",
   description:
     "Tiede- ja taideneuvos toimii tieteiden ja taiteiden harrastajien yhteyshenkilönä. Kiinnostus " +
     "tieteisiin ja taiteisiin riittää viran hoitamiseen, näyttöjä ei tarvita. Tiede- ja taideneuvos voi olla " +
@@ -67,7 +67,7 @@ const ministerOfArtsAndSciencesRole: OfficerRole = {
 const heraldRole: OfficerRole = {
   scaName: "Airut",
   mundaneName: "Vaakuna- ja nimivastaava",
-  email: "airut (at) hucca.org",
+  emailStart: "airut",
   description:
     "Airut edistää heraldiikan harrastusta ja toimii nimi- ja vaakunarekisterin yhdyshenkilönä. " +
     "Airut voi olla joko hallituksen jäsen tai toimihenkilö.",
@@ -75,7 +75,7 @@ const heraldRole: OfficerRole = {
 const heavyMarshalRole: OfficerRole = {
   scaName: "Marski",
   mundaneName: "taistelutoimintavastaava",
-  email: "marski (at) hucca.org",
+  emailStart: "marski",
   description:
     "Marski on taistelutoiminnan turvallisuusvastaava ja näin ollen hänen tulee tietää " +
     "SCA-taistelun perusasiat. Virallista turvallisuusasioihin liittyvää marskin pätevyyttä ei vaadita. " +
@@ -84,7 +84,7 @@ const heavyMarshalRole: OfficerRole = {
 const webmasterRole: OfficerRole = {
   scaName: null,
   mundaneName: "Web-vastaava",
-  email: "webvastaava (at) hucca.org",
+  emailStart: "webvastaava",
   description:
     "Webvastaava vastaa yhdistyksen kotisivujen päivittämisestä sekä näin sovittaessa myös " +
     "postituslistasta. Webvastaava voi olla joko hallituksen jäsen tai toimihenkilö.",
@@ -92,7 +92,7 @@ const webmasterRole: OfficerRole = {
 const scribeRole: OfficerRole = {
   scaName: "Kirjuri",
   mundaneName: null,
-  email: "kirjuri@hucca.org",
+  emailStart: "kirjuri",
   description:
     "Kirjuri koordinoi kunniakirjojen tuottamista ja edistää kalligrafian harrastusta. Pitäjän kirjurille riittää " +
     "hyvin kiinnostus aiheeseen - taitoja voi kartuttaa viran ohella esimerkiksi järjestämälä kirjurinpajoja (scriptorium). " +

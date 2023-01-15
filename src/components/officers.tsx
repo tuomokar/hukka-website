@@ -8,7 +8,7 @@ const Officers: FC = () => (
       <OfficerContainer key={scaName}>
         <OfficerLineText>{getOfficerRoleName(role)}</OfficerLineText>
         <OfficerLineText>{`${scaName} / ${mundaneName}`}</OfficerLineText>
-        <OfficerEmailLineText>{`${role.email}`}</OfficerEmailLineText>
+        <OfficerEmailLineText>{`${role.emailStart} (at) hucca.org`}</OfficerEmailLineText>
       </OfficerContainer>
     ))}
   </div>
