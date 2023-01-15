@@ -26,8 +26,8 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "22.1",
+    title: "Talvi-ilta-tapahtuma viikonloppuna",
     noMeeting: true,
-    title: "",
   },
   {
     date: "29.1",
@@ -55,7 +55,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "19.2.",
-    title: "",
+    title: "Sydäntalvenjuhla-tapahtuma viikonloppuna",
     noMeeting: true,
   },
   {
@@ -92,7 +92,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2.4.",
-    title: "",
+    title: "Ave Cecilia II -tapahtuma viikonloppuna",
     noMeeting: true,
   },
   {
@@ -106,7 +106,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "23.4.",
-    title: "",
+    title: "Discendo Tota Aetas - Oppia ikä kaikki III -tapahtuma viikonloppuna",
     noMeeting: true,
   },
   {
