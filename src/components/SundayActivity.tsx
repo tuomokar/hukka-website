@@ -19,7 +19,9 @@ const getTitle = ({
   }
 
   if (noMeeting) {
-    return "(ei tapaamista)";
+    const endText = title ? ` - ${title}` : "";
+
+    return `(ei tapaamista${endText})`;
   }
 
   return title;
