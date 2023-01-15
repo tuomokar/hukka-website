@@ -31,7 +31,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "29.1",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Vapaamuotoisesti omia käsitöitä ja teetä/kahvia. Apua ainakin ompeluun tarjolla myös.",
   },
   {
     date: "5.2.",
@@ -60,7 +60,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "26.2.",
-    title: "Keskiaikaisia tansseja",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
   },
   {
     date: "5.3.",
@@ -111,23 +111,29 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "30.4.",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Vappuaatto",
+    noMeeting: true,
   },
   {
     date: "7.5.",
-    title: "Jousiammuntaa",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "14.5.",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Jousiammuntaa",
   },
   {
     date: "21.5.",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Lankojen kasvivärjäys 3",
+    additionalDescription: (
+      <p>
+        <span>Jatkoa viime keväällä alkaneelle ja syksyllä jatkuneelle värjäykselle.</span>
+      </p>
+    ),
   },
   {
     date: "28.5.",
-    title: "Kevätkauden päätös: Nyyttärit ja lahjanryöstö. Vapaamuotoisia käsitöitä.",
+    title: "Kevätkauden päätös: Nyyttärit sekä apaamuotoisia käsitöitä.",
   },
 ];
 
