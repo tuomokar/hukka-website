@@ -10,7 +10,124 @@ import { SundayActivity as SundayActivityType } from "../types/Activities";
 const sundayActivities: SundayActivityType[] = [
   {
     date: "15.1.",
-    title: "Kevätkauden avaus: Lautanauhan perusteet",
+    title: "Kevätkauden avaus: Lautanauhan perusteet 1/3",
+    additionalDescription: (
+      <>
+        <p>
+          <span>
+            Ensimmäinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.{" "}
+            <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
+              Facebookista
+            </ExternalLink>
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "22.1",
+    noMeeting: true,
+    title: "",
+  },
+  {
+    date: "29.1",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+  },
+  {
+    date: "5.2.",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "12.2.",
+    title: "Jousiammuntaa sekä lautanauhan perusteet 2/3",
+    additionalDescription: (
+      <>
+        <p>
+          <span>
+            Jousiammunnan lisäksi toinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.{" "}
+            <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
+              Facebookista
+            </ExternalLink>
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "19.2.",
+    title: "",
+    noMeeting: true,
+  },
+  {
+    date: "26.2.",
+    title: "Keskiaikaisia tansseja",
+  },
+  {
+    date: "5.3.",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "12.3.",
+    title: "Jousiammuntaa sekä lautanauhan perusteet: 3/3",
+    additionalDescription: (
+      <>
+        <p>
+          <span>
+            Jousiammunnan lisäksi kolmas osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.{" "}
+            <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
+              Facebookista
+            </ExternalLink>
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    date: "19.3.",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+  },
+  {
+    date: "26.3.",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+  },
+  {
+    date: "2.4.",
+    title: "",
+    noMeeting: true,
+  },
+  {
+    date: "9.4.",
+    title: "Pääsiäinen",
+    noMeeting: true,
+  },
+  {
+    date: "16.4.",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+  },
+  {
+    date: "23.4.",
+    title: "",
+    noMeeting: true,
+  },
+  {
+    date: "30.4.",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+  },
+  {
+    date: "7.5.",
+    title: "Jousiammuntaa",
+  },
+  {
+    date: "14.5.",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+  },
+  {
+    date: "21.5.",
+    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+  },
+  {
+    date: "28.5.",
+    title: "Kevätkauden päätös: Nyyttärit ja lahjanryöstö. Vapaamuotoisia käsitöitä.",
   },
 ];
 
