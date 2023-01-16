@@ -60,7 +60,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "26.2.",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Neulakinnastekniikka",
   },
   {
     date: "5.3.",
@@ -102,7 +102,12 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "16.4.",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Helmikirjonta 2",
+    additionalDescription: (
+      <p>
+        <span>Jatkoa syksyllä tehdylle helmikirjonnalle</span>
+      </p>
+    ),
   },
   {
     date: "23.4.",
