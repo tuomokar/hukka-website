@@ -11,7 +11,7 @@ import { SundayActivity as SundayActivityType } from "../types/Activities";
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
 const sundayActivities: SundayActivityType[] = [
   {
-    date: "15.1.",
+    date: "2023-01-15",
     title: "Kevätkauden avaus: Lautanauhan perusteet 1/3",
     additionalDescription: (
       <>
@@ -27,20 +27,20 @@ const sundayActivities: SundayActivityType[] = [
     ),
   },
   {
-    date: "22.1",
+    date: "2023-01-22",
     title: "Talvi-ilta-tapahtuma viikonloppuna",
     noMeeting: true,
   },
   {
-    date: "29.1",
+    date: "2023-01-29",
     title: "Vapaamuotoisesti omia käsitöitä ja teetä/kahvia. Apua ainakin ompeluun tarjolla myös.",
   },
   {
-    date: "5.2.",
+    date: "2023-02-05",
     title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
-    date: "12.2.",
+    date: "2023-02-12",
     title: "Jousiammuntaa sekä lautanauhan perusteet 2/3",
     additionalDescription: (
       <>
@@ -56,20 +56,20 @@ const sundayActivities: SundayActivityType[] = [
     ),
   },
   {
-    date: "19.2.",
+    date: "2023-02-19",
     title: "Sydäntalvenjuhla-tapahtuma viikonloppuna",
     noMeeting: true,
   },
   {
-    date: "26.2.",
+    date: "2023-02-26",
     title: "Neulakinnastekniikka",
   },
   {
-    date: "5.3.",
+    date: "2023-03-05",
     title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
-    date: "12.3.",
+    date: "2023-03-12",
     title: "Jousiammuntaa sekä lautanauhan perusteet: 3/3",
     additionalDescription: (
       <>
@@ -85,25 +85,25 @@ const sundayActivities: SundayActivityType[] = [
     ),
   },
   {
-    date: "19.3.",
+    date: "2023-03-19",
     title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
   },
   {
-    date: "26.3.",
+    date: "2023-03-26",
     title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
   },
   {
-    date: "2.4.",
+    date: "2023-04-02",
     title: "Ave Cecilia II -tapahtuma viikonloppuna",
     noMeeting: true,
   },
   {
-    date: "9.4.",
+    date: "2023-04-09",
     title: "Pääsiäinen",
     noMeeting: true,
   },
   {
-    date: "16.4.",
+    date: "2023-04-16",
     title: "Helmikirjonta 2",
     additionalDescription: (
       <p>
@@ -112,25 +112,25 @@ const sundayActivities: SundayActivityType[] = [
     ),
   },
   {
-    date: "23.4.",
+    date: "2023-04-23",
     title: "Discendo Tota Aetas - Oppia ikä kaikki III -tapahtuma viikonloppuna",
     noMeeting: true,
   },
   {
-    date: "30.4.",
+    date: "2023-04-30",
     title: "Vappuaatto",
     noMeeting: true,
   },
   {
-    date: "7.5.",
+    date: "2023-05-07",
     title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
-    date: "14.5.",
+    date: "2023-05-14",
     title: "Jousiammuntaa",
   },
   {
-    date: "21.5.",
+    date: "2023-05-21",
     title: "Lankojen kasvivärjäys 3",
     additionalDescription: (
       <p>
@@ -139,7 +139,7 @@ const sundayActivities: SundayActivityType[] = [
     ),
   },
   {
-    date: "28.5.",
+    date: "2023-05-28",
     title: "Kevätkauden päätös: Nyyttärit sekä apaamuotoisia käsitöitä.",
   },
 ];

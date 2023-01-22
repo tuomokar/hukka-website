@@ -1,3 +1,4 @@
+import { formatDate } from "dates/utils";
 import React, { FC } from "react";
 import { SundayActivity as SundayActivityType } from "../types/Activities";
 import { CanceledActivity } from "./CanceledActivity";
@@ -30,7 +31,7 @@ const getTitle = ({
 const SundayActivity: FC<Props> = ({ date, title, additionalDescription, noMeeting, isCanceled, cancelReason }) => {
   return (
     <>
-      <span>{noMeeting ? <>{date}</> : <b>{date}</b>}</span>&nbsp;
+      <span>{noMeeting ? <>{formatDate(date)}</> : <b>{formatDate(date)}</b>}</span>&nbsp;
       <span>{getTitle({ noMeeting, title, isCanceled, cancelReason })}</span>
       {additionalDescription && (
         <ul>

@@ -11,3 +11,6 @@ export const formatDateRange = (dateStartString: IsoDateString, dateEndString: I
 
   return `${format(startDate, "d.")}-${format(endDate, "d.M.yyyy")}`;
 };
+
+// At some point maybe add a check if the date is within the same year but for now this is enough.
+export const formatDate = (date: IsoDateString) => format(parseISO(date), "d.M");
