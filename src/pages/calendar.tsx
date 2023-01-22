@@ -1,23 +1,12 @@
 import styled from "@emotion/styled";
-import { format, isSameDay, parseISO } from "date-fns";
 import { IsoDateString } from "dates/types";
+import { formatDateRange } from "dates/utils";
 import { HeadFC } from "gatsby";
 import React, { FC, ReactElement } from "react";
 import { ExternalLink } from "../components/external-link";
 import { Layout } from "../components/layout";
 import { SundayActivity } from "../components/SundayActivity";
 import { SundayActivity as SundayActivityType } from "../types/Activities";
-
-const formatEventDates = (dateStartString: IsoDateString, dateEndString: IsoDateString) => {
-  const startDate = parseISO(dateStartString);
-  const endDate = parseISO(dateEndString);
-
-  if (isSameDay(startDate, endDate)) {
-    return format(startDate, "d.M.yyyy");
-  }
-
-  return `${format(startDate, "d.")}-${format(endDate, "d.M.yyyy")}`;
-};
 
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
 const sundayActivities: SundayActivityType[] = [
@@ -354,7 +343,7 @@ const Calendar: FC = () => (
             {events.map(({ title, dateStart, dateEnd, description }) => (
               <li key={title}>
                 <span>
-                  <b>{formatEventDates(dateStart, dateEnd)}</b>
+                  <b>{formatDateRange(dateStart, dateEnd)}</b>
                 </span>
                 &nbsp;
                 <span>{title}</span>
