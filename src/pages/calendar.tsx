@@ -1,4 +1,5 @@
 import styled from "@emotion/styled";
+import { isFuture, isToday, parseISO } from "date-fns";
 import { IsoDateString } from "dates/types";
 import { formatDateRange } from "dates/utils";
 import { HeadFC } from "gatsby";
@@ -340,16 +341,20 @@ const Calendar: FC = () => (
         </div>
         <div>
           <ul>
-            {events.map(({ title, dateStart, dateEnd, description }) => (
-              <li key={title}>
-                <span>
-                  <b>{formatDateRange(dateStart, dateEnd)}</b>
-                </span>
-                &nbsp;
-                <span>{title}</span>
-                {description}
-              </li>
-            ))}
+            {events
+              .filter(({ dateEnd: dateEndString }) =>
+                ((dateEnd: Date) => isToday(dateEnd) || isFuture(dateEnd))(parseISO(dateEndString))
+              )
+              .map(({ title, dateStart, dateEnd, description }) => (
+                <li key={title}>
+                  <span>
+                    <b>{formatDateRange(dateStart, dateEnd)}</b>
+                  </span>
+                  &nbsp;
+                  <span>{title}</span>
+                  {description}
+                </li>
+              ))}
           </ul>
         </div>
       </EventsContainer>
