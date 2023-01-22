@@ -1,10 +1,30 @@
 import styled from "@emotion/styled";
+import { format, isSameDay, parseISO } from "date-fns";
 import { HeadFC } from "gatsby";
 import React, { FC, ReactElement } from "react";
 import { ExternalLink } from "../components/external-link";
 import { Layout } from "../components/layout";
 import { SundayActivity } from "../components/SundayActivity";
 import { SundayActivity as SundayActivityType } from "../types/Activities";
+
+type YearDigits = `202${3 | 4}`;
+type MonthFirstDigit = 0 | 1;
+type MonthSecondDigit = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+
+type DayFirstDigit = 0 | 1 | 2 | 3;
+type DaySecondDigit = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
+type IsoDateString = `${YearDigits}-${MonthFirstDigit}${MonthSecondDigit}-${DayFirstDigit}${DaySecondDigit}`;
+
+const formatEventDates = (dateStartString: IsoDateString, dateEndString: IsoDateString) => {
+  const startDate = parseISO(dateStartString);
+  const endDate = parseISO(dateEndString);
+
+  if (isSameDay(startDate, endDate)) {
+    return format(startDate, "d.M.yyyy");
+  }
+
+  return `${format(startDate, "d.")}-${format(endDate, "d.M.yyyy")}`;
+};
 
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
 const sundayActivities: SundayActivityType[] = [
@@ -144,13 +164,15 @@ const sundayActivities: SundayActivityType[] = [
 
 type Event = {
   title: string;
-  date: string;
+  dateStart: IsoDateString;
+  dateEnd: IsoDateString;
   description: ReactElement;
 };
 
 const events: Event[] = [
   {
-    date: "20.-22.1.2023",
+    dateStart: "2023-01-20",
+    dateEnd: "2023-01-22",
     title: "Talvi-ilta",
     description: (
       <>
@@ -165,7 +187,8 @@ const events: Event[] = [
     ),
   },
   {
-    date: "27.-29.1.2023",
+    dateStart: "2023-01-27",
+    dateEnd: "2023-01-29",
     title: "Kuningaskunnan online-yliopisto",
     description: (
       <p>
@@ -183,7 +206,8 @@ const events: Event[] = [
     ),
   },
   {
-    date: "17.-19.2.2023",
+    dateStart: "2023-02-17",
+    dateEnd: "2023-02-19",
     title: "Sydäntalvenjuhla",
     description: (
       <>
@@ -201,7 +225,8 @@ const events: Event[] = [
     ),
   },
   {
-    date: "31.3. - 2.4.2023",
+    dateStart: "2023-03-31",
+    dateEnd: "2023-04-02",
     title: "Ave Cecilia II",
     description: (
       <p>
@@ -210,7 +235,8 @@ const events: Event[] = [
     ),
   },
   {
-    date: "21. - 23.4.2023",
+    dateStart: "2023-04-21",
+    dateEnd: "2023-04-23",
     title: "Discendo Tota Aetas - Oppia ikä kaikki III",
     description: (
       <p>
@@ -228,7 +254,8 @@ const events: Event[] = [
     ),
   },
   {
-    date: "14.-18.6.2023",
+    dateStart: "2023-06-14",
+    dateEnd: "2023-06-18",
     title: "Drachenwaldin 30v juhlat",
     description: (
       <>
@@ -331,10 +358,10 @@ const Calendar: FC = () => (
         </div>
         <div>
           <ul>
-            {events.map(({ title, date, description }) => (
-              <li key={date}>
+            {events.map(({ title, dateStart, dateEnd, description }) => (
+              <li key={title}>
                 <span>
-                  <b>{date}</b>
+                  <b>{formatEventDates(dateStart, dateEnd)}</b>
                 </span>
                 &nbsp;
                 <span>{title}</span>
