@@ -1,19 +1,12 @@
 import styled from "@emotion/styled";
 import { format, isSameDay, parseISO } from "date-fns";
+import { IsoDateString } from "dates/types";
 import { HeadFC } from "gatsby";
 import React, { FC, ReactElement } from "react";
 import { ExternalLink } from "../components/external-link";
 import { Layout } from "../components/layout";
 import { SundayActivity } from "../components/SundayActivity";
 import { SundayActivity as SundayActivityType } from "../types/Activities";
-
-type YearDigits = `202${3 | 4}`;
-type MonthFirstDigit = 0 | 1;
-type MonthSecondDigit = 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
-
-type DayFirstDigit = 0 | 1 | 2 | 3;
-type DaySecondDigit = 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9;
-type IsoDateString = `${YearDigits}-${MonthFirstDigit}${MonthSecondDigit}-${DayFirstDigit}${DaySecondDigit}`;
 
 const formatEventDates = (dateStartString: IsoDateString, dateEndString: IsoDateString) => {
   const startDate = parseISO(dateStartString);
