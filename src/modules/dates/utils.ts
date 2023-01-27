@@ -13,4 +13,4 @@ export const formatDateRange = (dateStartString: IsoDateString, dateEndString: I
 };
 
 // At some point maybe add a check if the date is within the same year but for now this is enough.
-export const formatDate = (date: IsoDateString) => format(parseISO(date), "d.M");
+export const formatDate = (date: IsoDateString) => format(parseISO(date), "d.M.");
