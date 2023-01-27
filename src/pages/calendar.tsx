@@ -38,7 +38,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-02-05",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+    title: "Keskiaika- ja renessanssilaulujen laulamista sekä skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "2023-02-12",
@@ -87,11 +87,12 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-03-19",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Lisää lautanauhatekniikoita",
+    additionalDescription: <p>Mestari Johanna kertoo vielä lisää lautanauhojen tekemisestä.</p>,
   },
   {
     date: "2023-03-26",
-    title: "(Ohjelma ei päätetty vielä. Tulee piakkoin.)",
+    title: "Tanssi",
   },
   {
     date: "2023-04-02",
@@ -124,11 +125,11 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-05-07",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+    title: "Keskiaika- ja renessanssilaulujen laulamista sekä skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "2023-05-14",
-    title: "Jousiammuntaa",
+    title: "Keskiaika- ja renessanssilaulujen laulamista sekä jousiammuntaa",
   },
   {
     date: "2023-05-21",
@@ -269,6 +270,28 @@ const events: Event[] = [
             varmasti tulee. Toki voi lähteä halutessaan myös teltan kanssa sinne.
           </span>
         </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2023-07-14",
+    dateEnd: "2023-07-23",
+    title: "Nuijasota",
+    description: (
+      <>
+        <p>
+          Perinteinen koko Aarnimetsän paronikunnan kesäinen telttaleiritapahtuma tulee taas. Tapahtumassa harrastajat
+          kokoontuvat telttailemaan keskiaikaisessa hengessä reilun viikon ajaksi. Suurella osalla majoittujista on
+          keskiaikainen teltta mutta myös sisämajoituksessa on tilaa ja majoittua voi myös mundaaniteltalla. Ei ole
+          myöskään pakko tulla koko viikoksi, vaan voi tulla esim. päiväkäynnille tai muutamaksi päiväksi.
+        </p>
+        <p>
+          Tapahtumassa on joka päivä monenlaista toimintaa, kuten erilaisten käsitöiden opetusta, luentoja, taistelua,
+          tanssia, jousiammuntaa. Sauna ja järvi ovat myös suosittuja! Tapahtumassa on kahdet pidot. Nopeasti
+          ilmoittautuville on päivisin ruokaa tarjolla aamupala, lounas sekä päivällinen, mutta ruokaa voi tehdä myös
+          itse paikanpäällä.
+        </p>
+        <p>Tapahtumasta on tulossa lisätietoa piakkoin.</p>
       </>
     ),
   },
