@@ -142,7 +142,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-05-28",
-    title: "Kevätkauden päätös: Nyyttärit sekä apaamuotoisia käsitöitä.",
+    title: "Kevätkauden päätös: Nyyttärit sekä vapaamuotoisia käsitöitä.",
   },
 ];
 
