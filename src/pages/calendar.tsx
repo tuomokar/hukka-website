@@ -38,7 +38,14 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-02-05",
-    title: "Keskiaika- ja renessanssilaulujen laulamista sekä skriptorium: illuminaatiota ja kalligrafiaa",
+    title: (
+      <>
+        Skriptorium: illuminaatiota ja kalligrafiaa sekä <s>keskiaika- ja renessanssilaulujen laulamista</s>
+      </>
+    ),
+    additionalDescription: (
+      <>(Valitettavasti laulu on peruttu tältä erää, mutta skriptorium on. Laulua on sitten taas maaliskuussa.)</>
+    ),
   },
   {
     date: "2023-02-12",
