@@ -221,7 +221,11 @@ const events: Event[] = [
     title: "Ave Cecilia II",
     description: (
       <p>
-        <span>Hucan laulamiseen ja musiikkiin keskittyvä tapahtuma tulee taas! Lisätietoa tulee piakkoin.</span>
+        <span>
+          Hucan laulamiseen ja musiikkiin keskittyvä tapahtuma tulee taas! Ilmoittautuminen on nyt auki. Lisätietoa
+          löydät tapahtuman&nbsp;
+          <ExternalLink href="https://avececilia.wordpress.com/">tapahtuman nettisivuilta</ExternalLink>.
+        </span>
       </p>
     ),
   },
@@ -231,13 +235,12 @@ const events: Event[] = [
     title: "Discendo Tota Aetas - Oppia ikä kaikki III",
     description: (
       <p>
-        27.2.2023 klo 18.00 alkaen
         <span>
           Sisarseuramme Poukan (Kotkan Keskiaikaseura) järjestämä tapahtuma Pyhällön Lintukodossa. Tarkoituksena
           tapahtumassa on oppia uusia asioita. Ilmoittautuminen tapahtumaan avautuu 27.2. klo 18.00. Lisätietoa löydät
-          mm.&nbsp;
-          <ExternalLink href="https://www.aarnimetsa.org/tapahtumakalenteri/#/aarnimetsa-poukka/2023-04-21/discendo-tota-aetas-iii">
-            Aarnimetsän kalenterista
+          &nbsp;
+          <ExternalLink href="https://sites.google.com/site/kotkankeskiaikaseurapoukka/toimintaa-poukassa/discendo-tota-aetas-oppia-ik%C3%A4-kaikki">
+            tapahtuman nettisivuilta
           </ExternalLink>
           .
         </span>
