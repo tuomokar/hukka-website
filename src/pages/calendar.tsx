@@ -94,8 +94,10 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-03-19",
-    title: "Lisää lautanauhatekniikoita",
-    additionalDescription: <p>Mestari Johanna kertoo vielä lisää lautanauhojen tekemisestä.</p>,
+    title: "Lisää lautanauhatekniikoita sekä keskiaika- ja renessanssilaulujen laulamista",
+    additionalDescription: (
+      <p>Mestari Johanna kertoo vielä lisää lautanauhojen tekemisestä. Salissa lisäksi laulamista.</p>
+    ),
   },
   {
     date: "2023-03-26",
@@ -136,7 +138,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-05-14",
-    title: "Keskiaika- ja renessanssilaulujen laulamista sekä jousiammuntaa",
+    title: "Jousiammuntaa",
   },
   {
     date: "2023-05-21",
