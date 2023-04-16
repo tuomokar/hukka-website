@@ -145,7 +145,13 @@ const sundayActivities: SundayActivityType[] = [
     title: "Lankojen kasvivärjäys 3",
     additionalDescription: (
       <p>
-        <span>Jatkoa viime keväällä alkaneelle ja syksyllä jatkuneelle värjäykselle.</span>
+        <span>
+          Jatkoa viime keväällä alkaneelle ja syksyllä jatkuneelle värjäykselle. Vielä ehdit mukaan, vaikket olisi
+          osallistunutkaan edelliselle kerralle. Lisätietoa löydät{" "}
+          <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6269582356418946/">
+            Facebookista
+          </ExternalLink>
+        </span>
       </p>
     ),
   },
