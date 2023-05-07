@@ -134,7 +134,7 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-05-07",
-    title: "Keskiaika- ja renessanssilaulujen laulamista sekä skriptorium: illuminaatiota ja kalligrafiaa",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "2023-05-14",
