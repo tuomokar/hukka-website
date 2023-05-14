@@ -76,7 +76,7 @@ const IndexPage = () => {
 
             <div>
               <p>
-                <span>Kevään 2023 sunnuntaitapaamiset alkavat sunnuntaina 15.1.</span>
+                <span>Kevään 2023 sunnuntaitapaamiset loppuvat sunnuntaina 28.5. mutta vielä ehtii mukaan!</span>
               </p>
             </div>
           </div>

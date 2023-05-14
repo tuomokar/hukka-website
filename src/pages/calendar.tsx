@@ -281,13 +281,6 @@ const events: Event[] = [
             .
           </span>
         </p>
-        <p>
-          <span>
-            Huom. tapahtuman ilmoittautuminen on avautunut jo ja suuri osa sisänukkumapaikoista on mennyt täyteen. Jos
-            haluat tapahtumaan mukaan, kannattaa silti ilmoittautua vielä. Sisäpaikkoja saatta olla vielä ja peruutuksia
-            varmasti tulee. Toki voi lähteä halutessaan myös teltan kanssa sinne.
-          </span>
-        </p>
       </>
     ),
   },
@@ -298,18 +291,106 @@ const events: Event[] = [
     description: (
       <>
         <p>
-          Perinteinen koko Aarnimetsän paronikunnan kesäinen telttaleiritapahtuma tulee taas. Tapahtumassa harrastajat
-          kokoontuvat telttailemaan keskiaikaisessa hengessä reilun viikon ajaksi. Suurella osalla majoittujista on
-          keskiaikainen teltta mutta myös sisämajoituksessa on tilaa ja majoittua voi myös mundaaniteltalla. Ei ole
-          myöskään pakko tulla koko viikoksi, vaan voi tulla esim. päiväkäynnille tai muutamaksi päiväksi.
+          <span>
+            Perinteinen koko Aarnimetsän paronikunnan kesäinen telttaleiritapahtuma tulee taas. Tapahtumassa harrastajat
+            kokoontuvat telttailemaan keskiaikaisessa hengessä reilun viikon ajaksi. Suurella osalla majoittujista on
+            keskiaikainen teltta mutta myös sisämajoituksessa on tilaa ja majoittua voi myös mundaaniteltalla. Ei ole
+            myöskään pakko tulla koko viikoksi, vaan voi tulla esim. päiväkäynnille tai muutamaksi päiväksi.
+          </span>
         </p>
         <p>
-          Tapahtumassa on joka päivä monenlaista toimintaa, kuten erilaisten käsitöiden opetusta, luentoja, taistelua,
-          tanssia, jousiammuntaa. Sauna ja järvi ovat myös suosittuja! Tapahtumassa on kahdet pidot. Nopeasti
-          ilmoittautuville on päivisin ruokaa tarjolla aamupala, lounas sekä päivällinen, mutta ruokaa voi tehdä myös
-          itse paikanpäällä.
+          <span>
+            Tapahtumassa on joka päivä monenlaista toimintaa, kuten erilaisten käsitöiden opetusta, luentoja, taistelua,
+            tanssia, jousiammuntaa. Sauna ja järvi ovat myös suosittuja! Tapahtumassa on kahdet pidot. Nopeasti
+            ilmoittautuville on päivisin ruokaa tarjolla aamupala, lounas sekä päivällinen, mutta ruokaa voi tehdä myös
+            itse paikanpäällä.
+          </span>
         </p>
-        <p>Tapahtumasta on tulossa lisätietoa piakkoin.</p>
+        <p>
+          <span>
+            Tapahtuman ilmoittautuminen on auki. Linkki ilmoittautumiseen ja lisätietoa tapahtumasta löytyy sen
+            nettisivuilta.&nbsp;
+            <ExternalLink href="https://cudgelwar.wordpress.com/">oma ryhmänsä Facebookiin</ExternalLink>
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2023-08-25",
+    dateEnd: "2023-08-27",
+    title: "Aarnimetsän paronillinen nvestituura",
+    description: (
+      <>
+        <p>
+          <span>
+            Investituurassa Aarnimetsä saa uudet paronilliset seuraavalle kahdelle vuodelle. Tapahtuma tulee olemaan
+            Kiljavan leirikeskuksessa Hyvinkäällä.
+          </span>
+        </p>
+        <p>
+          <span>Lisätietoa tapahtumasta tulee piakkoin.</span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2023-09-15",
+    dateEnd: "2023-09-17",
+    title: "Syysrieha",
+    description: (
+      <>
+        <p>
+          <span>
+            Pieni mutta lämminhenkinen sisarseuramme Unikankareen tapahtuma Vienolan leirikeskuksessa Rymättylässä
+            15.-17.9.2023.
+          </span>
+          <p>
+            <span>
+              Lisätietoa löytyy esim.{" "}
+              <ExternalLink href="https://www.aarnimetsa.org/tapahtumakalenteri/#/aarnimetsa-unikankare/2023-09-15/syysrieha">
+                Aarnimetsän kalenterista
+              </ExternalLink>
+              .
+            </span>
+          </p>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2023-10-13",
+    dateEnd: "2023-10-15",
+    title: "Kruununturnajaiset",
+    description: (
+      <>
+        <p>
+          <span>
+            Kuningaskuntamme kruununturnajaiset, joissa mitellään siitä, kuka hallitsee Drachenwaldia seuraavat puoli
+            vuotta. Tapahtumassa on luonnollisesti paljon ohjelmaa myös muille kuin taistelijoille!
+          </span>
+          <p>
+            <span>
+              Lisätietoa löytyy{" "}
+              <ExternalLink href="https://keskiaikaseuraunikankare.fi/autumn-crown-tournament/">
+                tapahtuman nettisivuilta
+              </ExternalLink>
+              .
+            </span>
+          </p>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2023-10-22",
+    dateEnd: "2023-10-23",
+    title: "Kekrijuhla",
+    description: (
+      <>
+        <p>
+          <span>Hukan oma perinteinen syksyn tapahtuma, jossa ohjelmaa jokaiselle. Lisätietoa tulee myöhemmin.</span>
+        </p>
       </>
     ),
   },
@@ -404,8 +485,9 @@ const Calendar: FC = () => (
         <h3>Taistelutreenit</h3>
 
         <div>
-          Taistelutreenejä on Viikissä joka torstai, yleensä klo 18 alkaen. Lainatavaroita löytyy jonkun verran, joten
-          alkuun et tarvitse mitään. Marski voi kertoa tarkan osoitteen (yhteystiedot-sivulta löytyy sähköposti).
+          Taistelutreenejä on pääsääntöisesti joka torstai, yleensä klo 18 alkaen. Lainatavaroita löytyy jonkun verran,
+          kunhan kerrot etukäteen että olisit kiinnostunut tulemaan. Alkuun et tarvitse itse mitään. Marski ja/tai vouti
+          voi kertoa tarkan osoitteen (yhteystiedot-sivulta löytyy sähköposti).
         </div>
       </div>
     </>
