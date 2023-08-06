@@ -4,13 +4,17 @@ import { getOfficerRoleName, officers } from "../constants/officers";
 
 const Officers: FC = () => (
   <div>
-    {officers.map(({ scaName, mundaneName, role }) => (
-      <OfficerContainer key={scaName}>
-        <OfficerLineText>{getOfficerRoleName(role)}</OfficerLineText>
-        <OfficerLineText>{`${scaName} / ${mundaneName}`}</OfficerLineText>
-        <OfficerEmailLineText>{`${role.emailStart} (at) hucca.org`}</OfficerEmailLineText>
-      </OfficerContainer>
-    ))}
+    <ul>
+      {officers.map(({ scaName, mundaneName, role }) => (
+        <li key={scaName}>
+          <OfficerContainer>
+            <OfficerLineText>{getOfficerRoleName(role)}</OfficerLineText>
+            <OfficerLineText>{`${scaName} / ${mundaneName}`}</OfficerLineText>
+            <OfficerEmailLineText>{`${role.emailStart} (at) hucca.org`}</OfficerEmailLineText>
+          </OfficerContainer>
+        </li>
+      ))}
+    </ul>
   </div>
 );
 
