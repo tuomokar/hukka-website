@@ -10,154 +10,91 @@ import { SundayActivity } from "../components/SundayActivity";
 import { SundayActivity as SundayActivityType } from "../types/Activities";
 
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
+
 const sundayActivities: SundayActivityType[] = [
   {
-    date: "2023-01-15",
-    title: "Kevätkauden avaus: Lautanauhan perusteet 1/3",
-    additionalDescription: (
-      <>
-        <p>
-          <span>
-            Ensimmäinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.&nbsp;
-            <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
-              Facebookista
-            </ExternalLink>
-          </span>
-        </p>
-      </>
-    ),
-  },
-  {
-    date: "2023-01-22",
-    title: "Talvi-ilta-tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2023-01-29",
-    title: "Vapaamuotoisesti omia käsitöitä ja teetä/kahvia. Apua ainakin ompeluun tarjolla myös.",
-  },
-  {
-    date: "2023-02-05",
-    title: (
-      <>
-        Skriptorium: illuminaatiota ja kalligrafiaa sekä <s>keskiaika- ja renessanssilaulujen laulamista</s>
-      </>
-    ),
-    additionalDescription: (
-      <>(Valitettavasti laulu on peruttu tältä erää, mutta skriptorium on. Laulua on sitten taas maaliskuussa.)</>
-    ),
-  },
-  {
-    date: "2023-02-12",
-    title: "Jousiammuntaa sekä lautanauhan perusteet 2/3",
-    additionalDescription: (
-      <>
-        <p>
-          <span>
-            Jousiammunnan lisäksi toinen osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.&nbsp;
-            <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
-              Facebookista
-            </ExternalLink>
-          </span>
-        </p>
-      </>
-    ),
-  },
-  {
-    date: "2023-02-19",
-    title: "Sydäntalvenjuhla-tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2023-02-26",
-    title: "Neulakinnastekniikka",
-  },
-  {
-    date: "2023-03-05",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2023-03-12",
-    title: "Jousiammuntaa sekä lautanauhan perusteet: 3/3",
-    additionalDescription: (
-      <>
-        <p>
-          <span>
-            Jousiammunnan lisäksi kolmas osa lautanauhan perusteista. Lisätietoa kerrasta ja kurssista löydät mm.&nbsp;
-            <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6015361638507687/">
-              Facebookista
-            </ExternalLink>
-          </span>
-        </p>
-      </>
-    ),
-  },
-  {
-    date: "2023-03-19",
-    title: "Lisää lautanauhatekniikoita sekä keskiaika- ja renessanssilaulujen laulamista",
-    additionalDescription: (
-      <p>Mestari Johanna kertoo vielä lisää lautanauhojen tekemisestä. Salissa lisäksi laulamista.</p>
-    ),
-  },
-  {
-    date: "2023-03-26",
-    title: "Tanssi",
-  },
-  {
-    date: "2023-04-02",
-    title: "Ave Cecilia II -tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2023-04-09",
-    title: "Pääsiäinen",
-    noMeeting: true,
-  },
-  {
-    date: "2023-04-16",
-    title: "Helmikirjonta 2",
-    additionalDescription: (
-      <p>
-        <span>Jatkoa syksyllä tehdylle helmikirjonnalle</span>
-      </p>
-    ),
-  },
-  {
-    date: "2023-04-23",
-    title: "Discendo Tota Aetas - Oppia ikä kaikki III -tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2023-04-30",
-    title: "Vappuaatto",
-    noMeeting: true,
-  },
-  {
-    date: "2023-05-07",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2023-05-14",
-    title: "Jousiammuntaa",
-  },
-  {
-    date: "2023-05-21",
-    title: "Lankojen kasvivärjäys 3",
+    date: "2023-08-20",
+    title: "Syyskauden avaus: Uusien ilta",
     additionalDescription: (
       <p>
         <span>
-          Jatkoa viime keväällä alkaneelle ja syksyllä jatkuneelle värjäykselle. Vielä ehdit mukaan, vaikket olisi
-          osallistunutkaan edelliselle kerralle. Lisätietoa löydät{" "}
-          <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/6269582356418946/">
-            Facebookista
-          </ExternalLink>
+          Tule tutustumaan keskiajan harrastamiseen! Pääset näkemään, hypistelemään ja kokeilemaan kaikenlaista
+          keskiaikaharrastukseen liittyvää kuten vaatteita, astioita, tekstiilityöjuttuja, kirjamaalausta,
+          keittokirjoja, nimi- ja vakuunajuttuja sekä mahdollisesti myös jousiammuntaa.
         </span>
       </p>
     ),
   },
   {
-    date: "2023-05-28",
-    title: "Kevätkauden päätös: Nyyttärit sekä vapaamuotoisia käsitöitä.",
+    date: "2023-08-27",
+    title: "Aarnimetsän investituura viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2023-09-03",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa (alustavasti)",
+  },
+  {
+    date: "2023-09-10",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-09-17",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-09-24",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-10-01",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa (alustavasti)",
+  },
+  {
+    date: "2023-10-08",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-10-15",
+    title: "Drachenwaldin kruununturnajaiset viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2023-10-22",
+    title: "Hukan oma kekrijuhla viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2023-10-29",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-11-05",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa (alustavasti)",
+  },
+  {
+    date: "2023-11-12",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-11-19",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-11-26",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-12-03",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-12-10",
+    title: "(ohjelma tulossa piakkoin)",
+  },
+  {
+    date: "2023-12-17",
+    title: "Pikkujoulut ja syyskauden päätös",
   },
 ];
 
@@ -319,7 +256,7 @@ const events: Event[] = [
   {
     dateStart: "2023-08-25",
     dateEnd: "2023-08-27",
-    title: "Aarnimetsän paronillinen nvestituura",
+    title: "Aarnimetsän paronillinen investituura",
     description: (
       <>
         <p>
@@ -329,7 +266,10 @@ const events: Event[] = [
           </span>
         </p>
         <p>
-          <span>Lisätietoa tapahtumasta tulee piakkoin.</span>
+          <span>
+            Lisätietoa tapahtumasta löytyy{" "}
+            <ExternalLink href="https://aarnimetsainvestiture.wordpress.com/">tapahtuman nettisivuilta</ExternalLink>
+          </span>
         </p>
       </>
     ),
@@ -417,7 +357,11 @@ const Calendar: FC = () => (
             <span>Nuotan osoite Kylänvanhimmantie 25B. Se on aivan Oulunkylän juna-aseman vieressä.</span>
           </p>
           <p>
-            <span>Kevään ohjelma täydentyy aivan piakkoin. Luvassa on kaikenlaista mielenkiintoista!</span>
+            <span>
+              Syksyn ohjelma täydentyy aivan piakkoin. Luvassa on kaikenlaista mielenkiintoista! Keväällä oli muun
+              muassa jousiammuntaa, helmikirjontaa, illuminaatiota ja kalligrafiaa, lautanauhan tekokurssi, neulakintaan
+              tekemistä, laulamista sekä kasvivärjäystä.
+            </span>
           </p>
         </div>
 
