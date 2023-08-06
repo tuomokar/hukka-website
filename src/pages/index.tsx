@@ -72,11 +72,23 @@ const IndexPage = () => {
           <h2 id="ajankohtaista">Ajankohtaista</h2>
 
           <div>
-            <h3>Kevään 2023 toiminta</h3>
+            <h3>Syksyn 2023 toiminta</h3>
 
             <div>
               <p>
-                <span>Kevään 2023 sunnuntaitapaamiset loppuvat sunnuntaina 28.5. mutta vielä ehtii mukaan!</span>
+                <span>
+                  Syksyn 2023 sunnuntaitapaamiset alkavat pyörimään kunnolla syyskuun alussa, mutta sunnuntaina{" "}
+                  <b>20.8.</b> pääsee jo tutustumaan! Tuolloin on uusien ilta, jolloin on mahdollisuus päästä näkemään,
+                  hypistelemään ja kokeilemaan kaikenlaista keskiaikaharrastukseen liittyvää kuten vaatteita, astioita,
+                  tekstiityöjuttuja, kirjamaalausta, keittokirjoja ja nimi- ja vaakunajuttuja sekä mahdollisesti myös
+                  jousiammuntaa.
+                </span>
+              </p>
+              <p>
+                <span>
+                  Huom. kuitenkin että sitä seuraavana sunnuntaina 27.8. ei ole kokoontumista vaan viikottaiset
+                  tapaamiset alkavat 3.9. Tapaamisten ohjelma muodostuu piakkoin.
+                </span>
               </p>
             </div>
           </div>
