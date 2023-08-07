@@ -32,7 +32,6 @@ const ContactInfoPage = () => {
           id="request-form"
           title="information-channel-join-request-form"
           src="https://docs.google.com/forms/d/e/1FAIpQLSdOCQYNoFfpPb2GJIz-L5NtOonPhLlYCnmUr-jTRhBOR8eEJw/viewform?embedded=true"
-          width="500"
           height="1000"
         >
           Loading…
@@ -50,6 +49,7 @@ const ContactInfoPage = () => {
 
 const RequestFormFrame = styled.iframe`
   margin: 32px 0 32px 0;
+  width: 100%;
 `;
 
 const InformationTitle = styled.h3`
