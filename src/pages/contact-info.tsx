@@ -30,7 +30,7 @@ const ContactInfoPage = () => {
 
         <RequestFormFrame
           id="request-form"
-          title="information-channel-join-request-form"
+          title="Lomake Hukan tiedotuskanaville liittymiseen"
           src="https://docs.google.com/forms/d/e/1FAIpQLSdOCQYNoFfpPb2GJIz-L5NtOonPhLlYCnmUr-jTRhBOR8eEJw/viewform?embedded=true"
           height="1000"
         >
