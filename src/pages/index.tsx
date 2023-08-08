@@ -44,8 +44,9 @@ const IndexPage = () => {
               </li>
               <li>
                 <span>
-                  Viikottaisia taistelutreenejä Viikissä torstaisin (rottinkitaistelu, eli SCA heavy fighting). Kysy
-                  näistä marskilta lisää!
+                  Viikottaisia taistelutreenejä (rottinkitaistelu, eli SCA heavy fighting) torstaisin. Kesäisin sään
+                  salliessa treenaamme ulkona Kannelmäessä. Sateen sattuessa ja syyssäiden tullessa siirrymme Viikkiin
+                  sisätiloihin. Kysy näistä marskilta lisää!
                 </span>
               </li>
               <li>
@@ -59,8 +60,8 @@ const IndexPage = () => {
             </ul>
 
             <p>
-              <Link to="/calendar">Kalenteri-sivulta</Link> löydät kevään aikataulun. Erilaisista aktiviteeteistamme
-              voit myös tarkemmin lukea lisää kattoseuramme&nbsp;
+              <Link to="/calendar">Kalenteri-sivulta</Link> löydät syksyn aikataulun (joka on vielä rakentumassa).
+              Erilaisista aktiviteeteistamme voit myös tarkemmin lukea lisää kattoseuramme&nbsp;
               <ExternalLink href="https://www.aarnimetsa.org/sivu-keskiaika-harrastuksena/">
                 Suomen Keskiaikaseuran sivuilta.
               </ExternalLink>
