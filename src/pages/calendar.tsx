@@ -324,13 +324,16 @@ const events: Event[] = [
     ),
   },
   {
-    dateStart: "2023-10-22",
-    dateEnd: "2023-10-23",
+    dateStart: "2023-10-20",
+    dateEnd: "2023-10-22",
     title: "Kekrijuhla",
     description: (
       <>
         <p>
-          <span>Hukan oma perinteinen syksyn tapahtuma, jossa ohjelmaa jokaiselle. Lisätietoa tulee myöhemmin.</span>
+          <span>
+            Hukan oma perinteinen syksyn tapahtuma, jossa ohjelmaa jokaiselle. Lisätietoa löytyy{" "}
+            <ExternalLink href="https://kekrijuhla.wordpress.com/">tapahtuman nettisivuilta</ExternalLink>
+          </span>
         </p>
       </>
     ),
