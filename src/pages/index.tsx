@@ -78,17 +78,22 @@ const IndexPage = () => {
             <div>
               <p>
                 <span>
-                  Syksyn 2023 sunnuntaitapaamiset alkavat pyörimään kunnolla syyskuun alussa, mutta sunnuntaina{" "}
-                  <b>20.8.</b> pääsee jo tutustumaan! Tuolloin on uusien ilta, jolloin on mahdollisuus päästä näkemään,
-                  hypistelemään ja kokeilemaan kaikenlaista keskiaikaharrastukseen liittyvää kuten vaatteita, astioita,
-                  tekstiityöjuttuja, kirjamaalausta, keittokirjoja ja nimi- ja vaakunajuttuja sekä mahdollisesti myös
-                  jousiammuntaa.
+                  Syksyn 2023 sunnuntaitapaamiset ovat nyt alkaneet, tule rohkeasti mukaan! Katso lisätietoa&nbsp;
+                  <Link to="/calendar">Kalenteri-sivulta</Link>.
                 </span>
               </p>
+            </div>
+          </div>
+
+          <div>
+            <h3>Uusia tiedotuskanavia</h3>
+
+            <div>
               <p>
                 <span>
-                  Huom. kuitenkin että sitä seuraavana sunnuntaina 27.8. ei ole kokoontumista vaan viikottaiset
-                  tapaamiset alkavat 3.9. Tapaamisten ohjelma muodostuu piakkoin.
+                  Hukalla on nyt WhatsAppissa ja Signalissa tiedotusta varten omat ryhmät. Liittyäksesi täytä
+                  lomake&nbsp;
+                  <Link to="contact-info">Yhteystiedot-sivulla</Link>.
                 </span>
               </p>
             </div>

@@ -32,27 +32,27 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-09-03",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa (alustavasti)",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "2023-09-10",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Jousiammuntaa sekä nuolten tekoa",
   },
   {
     date: "2023-09-17",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Neulakinnastekniikan alkeet",
   },
   {
     date: "2023-09-24",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Lautanauhan alkeet",
   },
   {
     date: "2023-10-01",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa (alustavasti)",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "2023-10-08",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Jousiammuntaa sekä neulakinnastekniikan jatkoa",
   },
   {
     date: "2023-10-15",
@@ -66,19 +66,19 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-10-29",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Heraldiikkaa",
   },
   {
     date: "2023-11-05",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa (alustavasti)",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "2023-11-12",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Jousiammuntaa",
   },
   {
     date: "2023-11-19",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Kirjansidontaa: koptisidos",
   },
   {
     date: "2023-11-26",
@@ -90,7 +90,8 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-12-10",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Sisarseuramme Poukan Annanpäivät viikonloppuna",
+    noMeeting: true,
   },
   {
     date: "2023-12-17",
@@ -334,6 +335,28 @@ const events: Event[] = [
       </>
     ),
   },
+  {
+    dateStart: "2023-12-08",
+    dateEnd: "2023-12-10",
+    title: "Annanpäivät",
+    description: (
+      <>
+        <p>
+          <span>
+            Sisarseuramme Poukan (Kotkan keskiaikaseura) järjestämä tapahtuma Lintukodon leirikeskuksessa Pyhällössä.
+          </span>
+        </p>
+        <p>
+          <span>
+            Lisätietoa löytyy
+            <ExternalLink href="https://sites.google.com/site/kotkankeskiaikaseurapoukka/toimintaa-poukassa/annanp%C3%A4iv%C3%A4t">
+              tapahtuman nettisivuilta
+            </ExternalLink>
+          </span>
+        </p>
+      </>
+    ),
+  },
 ];
 
 const Calendar: FC = () => (
@@ -358,9 +381,8 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>
-              Syksyn ohjelma täydentyy aivan piakkoin. Luvassa on kaikenlaista mielenkiintoista! Keväällä oli muun
-              muassa jousiammuntaa, helmikirjontaa, illuminaatiota ja kalligrafiaa, lautanauhan tekokurssi, neulakintaan
-              tekemistä, laulamista sekä kasvivärjäystä.
+              Syksyn ohjelma on nyt enimmäkseen valmis, mutta siihen tulee vielä jokunen lisäys ja on mahdollista, että
+              päivämäärät vielä hieman muuttuvat.
             </span>
           </p>
         </div>
