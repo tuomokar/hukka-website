@@ -56,8 +56,12 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-10-15",
-    title: "Drachenwaldin kruununturnajaiset viikonloppuna",
-    noMeeting: true,
+    title: "Lautanauhan jatkoa",
+    additionalDescription: (
+      <p>
+        <span>Vielä ehtii mukaan jos et ehtinyt ekalle kerralle.</span>
+      </p>
+    ),
   },
   {
     date: "2023-10-22",
@@ -82,11 +86,11 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-11-26",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Lautanauhan jatkoa",
   },
   {
     date: "2023-12-03",
-    title: "(ohjelma tulossa piakkoin)",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
     date: "2023-12-10",
@@ -351,7 +355,7 @@ const events: Event[] = [
         </p>
         <p>
           <span>
-            Lisätietoa löytyy
+            Lisätietoa löytyy&nbsp;
             <ExternalLink href="https://sites.google.com/site/kotkankeskiaikaseurapoukka/toimintaa-poukassa/annanp%C3%A4iv%C3%A4t">
               tapahtuman nettisivuilta
             </ExternalLink>
@@ -455,8 +459,9 @@ const Calendar: FC = () => (
 
         <div>
           Taistelutreenejä on pääsääntöisesti joka torstai, yleensä klo 18 alkaen. Lainatavaroita löytyy jonkun verran,
-          kunhan kerrot etukäteen että olisit kiinnostunut tulemaan. Alkuun et tarvitse itse mitään. Marski ja/tai vouti
-          voi kertoa tarkan osoitteen (yhteystiedot-sivulta löytyy sähköposti).
+          kunhan kerrot etukäteen että olisit kiinnostunut tulemaan. Alkuun et tarvitse itse mitään muuta kuin kevyet
+          pitkähihaiset vaatteet, jotka saavat hikeentyä. Marski ja/tai vouti voi kertoa tarkan osoitteen
+          (yhteystiedot-sivulta löytyy sähköposti).
         </div>
       </div>
     </>
