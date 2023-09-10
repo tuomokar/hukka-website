@@ -458,7 +458,7 @@ const Calendar: FC = () => (
         <h3>Taistelutreenit</h3>
 
         <div>
-          Taistelutreenejä on pääsääntöisesti joka torstai, yleensä klo 18 alkaen. Lainatavaroita löytyy jonkun verran,
+          Taistelutreenejä on pääsääntöisesti joka torstai Viikissä klo 18 alkaen. Lainatavaroita löytyy jonkun verran,
           kunhan kerrot etukäteen että olisit kiinnostunut tulemaan. Alkuun et tarvitse itse mitään muuta kuin kevyet
           pitkähihaiset vaatteet, jotka saavat hikeentyä. Marski ja/tai vouti voi kertoa tarkan osoitteen
           (yhteystiedot-sivulta löytyy sähköposti).
