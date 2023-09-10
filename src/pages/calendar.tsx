@@ -52,14 +52,23 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-10-08",
-    title: "Jousiammuntaa sekä neulakinnastekniikan jatkoa",
+    title: (
+      <>
+        <s>Jousiammuntaa</s> sekä neulakinnastekniikan jatkoa
+      </>
+    ),
+    additionalDescription: (
+      <p>
+        <span>Jousiammunta pidetään joku toinen kerta, lisätietoa tulossa piakkoin.</span>
+      </p>
+    ),
   },
   {
     date: "2023-10-15",
     title: "Lautanauhan jatkoa",
     additionalDescription: (
       <p>
-        <span>Vielä ehtii mukaan jos et ehtinyt ekalle kerralle.</span>
+        <span>Jatkoa ekalla kerralla olleille, mutta vielä ehtii mukaan vaikka et olisi ehtinyt ekalle kerralle.</span>
       </p>
     ),
   },
@@ -387,10 +396,7 @@ const Calendar: FC = () => (
             <span>Nuotan osoite Kylänvanhimmantie 25B. Se on aivan Oulunkylän juna-aseman vieressä.</span>
           </p>
           <p>
-            <span>
-              Syksyn ohjelma on nyt enimmäkseen valmis, mutta siihen tulee vielä jokunen lisäys ja on mahdollista, että
-              päivämäärät vielä hieman muuttuvat.
-            </span>
+            <span>Ohjelmaan tulee vielä ainakin yksi lisäys aivan piakkoin.</span>
           </p>
         </div>
 
