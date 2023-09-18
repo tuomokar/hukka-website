@@ -54,13 +54,22 @@ const sundayActivities: SundayActivityType[] = [
     date: "2023-10-08",
     title: (
       <>
-        <s>Jousiammuntaa</s> sekä neulakinnastekniikan jatkoa
+        <s>Jousiammuntaa</s>, neulakinnastekniikan jatkoa sekä kirpputori ja lainavaatteiden kokeilua Kekriä varten
       </>
     ),
     additionalDescription: (
-      <p>
-        <span>Jousiammunta pidetään joku toinen kerta, lisätietoa tulossa piakkoin.</span>
-      </p>
+      <>
+        <p>
+          <span>Jousiammunta pidetään joku toinen kerta, lisätietoa tulossa piakkoin.</span>
+        </p>
+        <p>
+          <span>
+            Jos olet ilmoittautunut Kekrijuhla-tapahtumaamme (20.-22.10.) eikä sinulla ole vielä omia
+            keskiaikavaatteita, voit tulla tänne kokeilemaan lainavaatteita tai katselemaan, olisiko vanhoilla
+            harrastajilla myynnissä niitä.
+          </span>
+        </p>
+      </>
     ),
   },
   {
