@@ -60,7 +60,7 @@ const sundayActivities: SundayActivityType[] = [
     additionalDescription: (
       <>
         <p>
-          <span>Jousiammunta pidetään joku toinen kerta, lisätietoa tulossa piakkoin.</span>
+          <span>Jousiammuntaa ei ole lokakuussa Nuotalla. Tule Kekriin, siellä on myös jousiammuntaa!</span>
         </p>
         <p>
           <span>
