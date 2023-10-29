@@ -89,6 +89,11 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2023-10-29",
     title: "Heraldiikkaa",
+    additionalDescription: (
+      <p>
+        <span>Nimiin ja vaakuna-asioihin tarjolla tietoa ja apua</span>
+      </p>
+    ),
   },
   {
     date: "2023-11-05",
@@ -378,6 +383,60 @@ const events: Event[] = [
               tapahtuman nettisivuilta
             </ExternalLink>
           </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-01-05",
+    dateEnd: "2024-01-07",
+    title: "Humalasalon Talvi-ilta",
+    description: (
+      <>
+        <p>
+          <span>Sisarseuramme Humalasalon (Hämeen keskiaikaseura) järjestämä tapahtuma Ylöjärvellä.</span>
+        </p>
+        <p>
+          <span>
+            Ilmoittautuminen alkaa maanantaina 13.11.2023 klo 18. Lisätietoa tapahtumasta{" "}
+            <ExternalLink href="https://www.talvi-ilta.humalasalo.net/">sen nettisivuilta</ExternalLink>.
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-02-16",
+    dateEnd: "2024-01-18",
+    title: "Sydäntalvenjuhla",
+    description: (
+      <>
+        <p>
+          <span>Sisarseuramme Unikankareen (Turun keskiaikaseura) järjestämä tapahtuma Taivassalossa.</span>
+        </p>
+        <p>
+          <span>
+            Ilmoittautuminen alkaa maanantaina 3.12.2023 klo 18. Lisätietoa tapahtumasta{" "}
+            <ExternalLink href="https://keskiaikaseuraunikankare.fi/stj24/">sen nettisivuilta</ExternalLink>.
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-07-05",
+    dateEnd: "2024-07-14",
+    title: "Nuijasota",
+    description: (
+      <>
+        <p>
+          <span>
+            Aarnimetsän kesäinen telttaleiritapahtuma tulee taas. Luvassa paljon käsitöitä, taistelua, tanssia,
+            syömistä, saunomista, järvessä oleskelua yms. Nukkumapaikkoja on myös sisätiloissa jonkun verran.
+          </span>
+        </p>
+        <p>
+          <span>Lisätietoa tulee kevään aikana.</span>
         </p>
       </>
     ),
