@@ -106,6 +106,8 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2023-11-19",
     title: "Kirjansidontaa: koptisidos",
+    isCanceled: true,
+    cancelReason: "Vastuuhenkilö sairastunut. Kirjansidontaa luvassa keväällä.",
   },
   {
     date: "2023-11-26",
