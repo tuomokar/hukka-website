@@ -115,7 +115,12 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2023-12-03",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa sekä yhdistyksen syyskokous",
+    additionalDescription: (
+      <>
+        <p>Syyskokouksesta lisätietoa pääsivulla</p>
+      </>
+    ),
   },
   {
     date: "2023-12-10",
