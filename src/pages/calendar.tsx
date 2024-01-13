@@ -13,8 +13,8 @@ import { SundayActivity as SundayActivityType } from "../types/Activities";
 
 const sundayActivities: SundayActivityType[] = [
   {
-    date: "2023-08-20",
-    title: "Syyskauden avaus: Uusien ilta",
+    date: "2024-01-14",
+    title: "Käsitöiden tekoa",
     additionalDescription: (
       <p>
         <span>
@@ -26,110 +26,84 @@ const sundayActivities: SundayActivityType[] = [
     ),
   },
   {
-    date: "2023-08-27",
-    title: "Aarnimetsän investituura viikonloppuna",
+    date: "2024-01-21",
+    title: "Paronillisen lahjakorin täyttämistä",
     noMeeting: true,
   },
   {
-    date: "2023-09-03",
+    date: "2024-02-28",
+    title: "Kynttiläpaja (pikkujouluista siirtynyt",
+  },
+  {
+    date: "2024-02-04",
     title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
-    date: "2023-09-10",
-    title: "Jousiammuntaa sekä nuolten tekoa",
-  },
-  {
-    date: "2023-09-17",
-    title: "Neulakinnastekniikan alkeet",
-  },
-  {
-    date: "2023-09-24",
-    title: "Lautanauhan alkeet",
-  },
-  {
-    date: "2023-10-01",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2023-10-08",
-    title: (
-      <>
-        <s>Jousiammuntaa</s>, neulakinnastekniikan jatkoa sekä kirpputori ja lainavaatteiden kokeilua Kekriä varten
-      </>
-    ),
-    additionalDescription: (
-      <>
-        <p>
-          <span>Jousiammuntaa ei ole lokakuussa Nuotalla. Tule Kekriin, siellä on myös jousiammuntaa!</span>
-        </p>
-        <p>
-          <span>
-            Jos olet ilmoittautunut Kekrijuhla-tapahtumaamme (20.-22.10.) eikä sinulla ole vielä omia
-            keskiaikavaatteita, voit tulla tänne kokeilemaan lainavaatteita tai katselemaan, olisiko vanhoilla
-            harrastajilla myynnissä niitä.
-          </span>
-        </p>
-      </>
-    ),
-  },
-  {
-    date: "2023-10-15",
-    title: "Lautanauhan jatkoa",
-    additionalDescription: (
-      <p>
-        <span>Jatkoa ekalla kerralla olleille, mutta vielä ehtii mukaan vaikka et olisi ehtinyt ekalle kerralle.</span>
-      </p>
-    ),
-  },
-  {
-    date: "2023-10-22",
-    title: "Hukan oma kekrijuhla viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2023-10-29",
-    title: "Heraldiikkaa",
-    additionalDescription: (
-      <p>
-        <span>Nimiin ja vaakuna-asioihin tarjolla tietoa ja apua</span>
-      </p>
-    ),
-  },
-  {
-    date: "2023-11-05",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2023-11-12",
+    date: "2024-02-11",
     title: "Jousiammuntaa",
   },
   {
-    date: "2023-11-19",
-    title: "Kirjansidontaa: koptisidos",
-    isCanceled: true,
-    cancelReason: "Vastuuhenkilö sairastunut. Kirjansidontaa luvassa keväällä.",
-  },
-  {
-    date: "2023-11-26",
-    title: "Lautanauhan jatkoa",
-  },
-  {
-    date: "2023-12-03",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa sekä yhdistyksen syyskokous",
-    additionalDescription: (
-      <>
-        <p>Syyskokouksesta lisätietoa pääsivulla</p>
-      </>
-    ),
-  },
-  {
-    date: "2023-12-10",
-    title: "Sisarseuramme Poukan Annanpäivät viikonloppuna",
+    date: "2024-02-18",
+    title: "Sisarseuramme Unikankareen Sydäntalvenjuhla viikonloppuna",
     noMeeting: true,
   },
   {
-    date: "2023-12-17",
-    title: "Pikkujoulut ja syyskauden päätös",
+    date: "2024-02-25",
+    title: "hiihtoloma",
+    noMeeting: true,
+  },
+  {
+    date: "2024-03-03",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "2024-03-10",
+    title: "Sisarseuramme Poukan järjestämä Skriptorium-tapahtuma viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2024-03-17",
+    title: "Kirjansidontaa: koptisidos",
+  },
+  {
+    date: "2024-03-24",
+    title: "Laulua ja musisointia",
+  },
+  {
+    date: "2024-04-07",
+    title: "Pääsiäinen",
+    noMeeting: true,
+  },
+  {
+    date: "2024-04-14",
+    title: "Jousiammuntaa",
+  },
+  {
+    date: "2024-04-21",
+    title: "Sisarseuramme Miehonlinnan järjestämä Suwiyöt-tapahtuma viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2024-04-28",
+    title: "Hukan kevättanssiaiset",
+  },
+  {
+    date: "2024-05-05",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "2024-05-12",
+    title: "Jousiammuntaa",
+    noMeeting: true,
+  },
+  {
+    date: "2024-05-19",
+    title: "Hukan oma Värttinä & Väripata -tapahtuma viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2024-05-26",
+    title: "Kevätkauden päättäjäiset",
   },
 ];
 
@@ -423,8 +397,91 @@ const events: Event[] = [
         </p>
         <p>
           <span>
-            Ilmoittautuminen alkaa maanantaina 3.12.2023 klo 18. Lisätietoa tapahtumasta{" "}
-            <ExternalLink href="https://keskiaikaseuraunikankare.fi/stj24/">sen nettisivuilta</ExternalLink>.
+            Tapahtuma on tällä hetkellä täynnä viikonlopuksi tulijoiden osalta, mutta päiväkäynnille mahtuu ja jonoon
+            voi toki ilmoittautua, jos haluaa yrittää koko viikonlopuksi.
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-03-08",
+    dateEnd: "2024-03-10",
+    title: "Aarniskriptorium",
+    description: (
+      <>
+        <p>
+          <span>Sisarseuramme Poukan (Kotkan keskiaikaseura) järjestämä tapahtuma Pyhtäällä.</span>
+        </p>
+        <p>
+          <span>Lisätietoa tapahtumasta tulee piakkoin.</span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-04-19",
+    dateEnd: "2024-04-21",
+    title: "Suwiyöt",
+    description: (
+      <>
+        <p>
+          <span>
+            Sisarseuramme Miehonlinnan (Kouvolan keskiaikaseura) järjestämä tapahtuma Lintukodin leirikeskus Pyhällössä.
+          </span>
+        </p>
+        <p>
+          <span>
+            Ilmoittautuminen alkaa maanantaina 29.02.2024 klo 18. Lisätietoa tapahtumasta{" "}
+            <ExternalLink href="https://miehonlinna.wordpress.com/2024/01/07/suwiyot-xxiv-summer-night/">
+              sen nettisivuilta
+            </ExternalLink>
+            .
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-05-17",
+    dateEnd: "2024-05-19",
+    title: "Valpurin tanssiaiset",
+    description: (
+      <>
+        <p>
+          <span>Sisarseuramme Unikankareen (Turun keskiaikaseura) järjestämä tapahtuma.</span>
+        </p>
+        <p>
+          <span>
+            Ilmoittautuminen alkaa maanantaina 03.03.2024 klo 18. Lisätietoa tapahtumasta{" "}
+            <ExternalLink href="https://keskiaikaseuraunikankare.fi/valpuri2024/">sen nettisivuilta</ExternalLink>.
+          </span>
+        </p>
+        <p>
+          <span>
+            Huom. valitettavasti tosiaan tapahtuma on samaan aikaan Hukan oman tapahtuman kanssa. Voit valita
+            kiinnostaako tanssi vai värjääminen ja värttinä enemmän.
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-05-17",
+    dateEnd: "2024-05-19",
+    title: "Värttinä & Väripata",
+    description: (
+      <>
+        <p>
+          <span>Hukan oma rento tapahtuma keskittyen värttinään ja kasvivärjäykseen.</span>
+        </p>
+        <p>
+          <span>Lisätietoa tapahtumasta tulee piakkoin.</span>
+        </p>
+        <p>
+          <span>
+            Huom. valitettavasti tosiaan tapahtuma on samaan aikaan sisarseuramme Unikankareen tapahtuman kanssa. Voit
+            valita kiinnostaako tanssi vai värjääminen ja värttinä enemmän.
           </span>
         </p>
       </>
@@ -469,9 +526,6 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>Nuotan osoite Kylänvanhimmantie 25B. Se on aivan Oulunkylän juna-aseman vieressä.</span>
-          </p>
-          <p>
-            <span>Ohjelmaan tulee vielä ainakin yksi lisäys aivan piakkoin.</span>
           </p>
         </div>
 

@@ -66,7 +66,7 @@ const IndexPage = () => {
             </ul>
 
             <p>
-              <Link to="/calendar">Kalenteri-sivulta</Link> löydät syksyn aikataulun. Erilaisista aktiviteeteistamme
+              <Link to="/calendar">Kalenteri-sivulta</Link> löydät kevään aikataulun. Erilaisista aktiviteeteistamme
               voit myös tarkemmin lukea lisää kattoseuramme&nbsp;
               <ExternalLink href="https://www.aarnimetsa.org/sivu-keskiaika-harrastuksena/">
                 Suomen Keskiaikaseuran sivuilta.
@@ -79,17 +79,11 @@ const IndexPage = () => {
           <h2 id="ajankohtaista">Ajankohtaista</h2>
 
           <div>
-            <h3>Hukan pikkujoulut</h3>
+            <h3>Kevätkausi 2024</h3>
 
             <div>
-              <p>
-                Hukan pikkujoulut ovat Nuotalla 17.12. Ohjelmassa on nyyttäreiden lisäksi ainakin vahapintoisten
-                LED-kynttilöiden koristelemista. Ilmoittaudu 1.12. mennessä, niin vastuuhenkilö tuo tarvikkeita. Ohjeet
-                ja lisätietoa löydät&nbsp;
-                <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/7043026609074513/">
-                  Facebookista.
-                </ExternalLink>
-              </p>
+              Hukan kevätkausi alkaa 14.1.2024. Ohjelma löytyy <Link to="/calendar">Kalenteri-sivulta</Link>. Tule
+              mukaan milloin vain, olet sitten uusi tai vanha!
             </div>
           </div>
 

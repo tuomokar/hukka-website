@@ -8,9 +8,10 @@ display the available officer roles that we're searching.
 */
 
 import { isWithinInterval, parseISO, startOfToday, subDays } from "date-fns";
+import { IsoDateString } from "dates/types";
 
-export const springSocietyMeetingDate = "2023-05-28";
-export const autumnSocietyMeetingDate = "2023-12-03";
+export const springSocietyMeetingDate: IsoDateString = "2023-05-28";
+export const autumnSocietyMeetingDate: IsoDateString = "2023-12-03";
 
 export const isAutumnSocietyMeetingInvitationDisplayed = (): boolean =>
   isWithinThirtyDays(parseISO(autumnSocietyMeetingDate));
