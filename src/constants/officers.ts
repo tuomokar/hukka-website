@@ -117,8 +117,10 @@ export const officerRoles = [
 export const officers: Officer[] = [
   { mundaneName: "Tuomo Oila", scaName: "Tuomas Tharo", role: senechalRole },
   { mundaneName: "Liisa Oila", scaName: "Elena", role: treasurerRole },
-  { mundaneName: "Outi Sivonen", scaName: "Adeliza de Bello", role: ministerOfArtsAndSciencesRole },
+  { mundaneName: "Outi Sivonen", scaName: "Adeliza de Bello", role: viceSenechalRole },
   { mundaneName: "Jukka Lindgren", scaName: "Johann vom Hasengraben", role: heraldRole },
   { mundaneName: "Juhana Seppänen", scaName: "Sanginkylän Juhana", role: heavyMarshalRole },
   { mundaneName: "Mari Voipio", scaName: "Johanna aff Hucka", role: webmasterRole },
+  { mundaneName: "Hilla Haapamäki", scaName: "Grite von Esslingen", role: chastellainRole },
+  { mundaneName: "Katariina Karvinen", scaName: "Elizabeth Beaufort", role: ministerOfArtsAndSciencesRole },
 ];
