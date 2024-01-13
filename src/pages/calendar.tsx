@@ -519,7 +519,7 @@ const Calendar: FC = () => (
           <ul>
             {events
               .filter(({ dateEnd: dateEndString }) =>
-                ((dateEnd: Date) => isToday(dateEnd) || isFuture(dateEnd))(parseISO(dateEndString))
+                ((dateEnd) => isToday(dateEnd) || isFuture(dateEnd))(parseISO(dateEndString))
               )
               .map(({ title, dateStart, dateEnd, description }) => (
                 <li key={title}>
