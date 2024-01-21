@@ -28,11 +28,10 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2024-01-21",
     title: "Paronillisen lahjakorin täyttämistä",
-    noMeeting: true,
   },
   {
     date: "2024-02-28",
-    title: "Kynttiläpaja (pikkujouluista siirtynyt",
+    title: "Kynttiläpaja (pikkujouluista siirtynyt)",
   },
   {
     date: "2024-02-04",
@@ -94,7 +93,6 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2024-05-12",
     title: "Jousiammuntaa",
-    noMeeting: true,
   },
   {
     date: "2024-05-19",
