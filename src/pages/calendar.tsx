@@ -15,22 +15,13 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2024-01-14",
     title: "Käsitöiden tekoa",
-    additionalDescription: (
-      <p>
-        <span>
-          Tule tutustumaan keskiajan harrastamiseen! Pääset näkemään, hypistelemään ja kokeilemaan kaikenlaista
-          keskiaikaharrastukseen liittyvää kuten vaatteita, astioita, tekstiilityöjuttuja, kirjamaalausta,
-          keittokirjoja, nimi- ja vakuunajuttuja sekä mahdollisesti myös jousiammuntaa.
-        </span>
-      </p>
-    ),
   },
   {
     date: "2024-01-21",
     title: "Paronillisen lahjakorin täyttämistä",
   },
   {
-    date: "2024-02-28",
+    date: "2024-01-28",
     title: "Kynttiläpaja (pikkujouluista siirtynyt)",
   },
   {
