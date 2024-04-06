@@ -60,9 +60,13 @@ const sundayActivities: SundayActivityType[] = [
     title: "Laulua ja musisointia",
   },
   {
-    date: "2024-04-07",
+    date: "2024-03-31",
     title: "Pääsiäinen",
     noMeeting: true,
+  },
+  {
+    date: "2024-04-07",
+    title: "Scriptorium",
   },
   {
     date: "2024-04-14",
