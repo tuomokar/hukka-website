@@ -420,16 +420,23 @@ const events: Event[] = [
       <>
         <p>
           <span>
-            Sisarseuramme Miehonlinnan (Kouvolan keskiaikaseura) järjestämä tapahtuma Lintukodin leirikeskus Pyhällössä.
+            Sisarseuramme Miehonlinnan (Kouvolan keskiaikaseura) järjestämä tapahtuma{" "}
+            <s>Lintukodin leirikeskus Pyhällössä</s> Märkiön leirikeskuksessa Nurmijärvellä (eli paikka siirtyi Hukan
+            maille)
           </span>
         </p>
         <p>
           <span>
-            Ilmoittautuminen alkaa maanantaina 29.02.2024 klo 18. Lisätietoa tapahtumasta{" "}
+            Tapahtuma lienee tässä vaiheessa täynnä, mutta päiväkävijäksi mahtunee vielä (ja jos haluaa viikonlopuksi,
+            kannattaa tietysti kysyä että sattuisiko mahtumaan).
+          </span>
+        </p>
+        <p>
+          <span>
+            Lisätietoa tapahtumasta{" "}
             <ExternalLink href="https://miehonlinna.wordpress.com/2024/01/07/suwiyot-xxiv-summer-night/">
               sen nettisivuilta
             </ExternalLink>
-            .
           </span>
         </p>
       </>
@@ -446,7 +453,7 @@ const events: Event[] = [
         </p>
         <p>
           <span>
-            Ilmoittautuminen alkaa maanantaina 03.03.2024 klo 18. Lisätietoa tapahtumasta{" "}
+            Lisätietoa tapahtumasta löytyy sen{" "}
             <ExternalLink href="https://keskiaikaseuraunikankare.fi/valpuri2024/">sen nettisivuilta</ExternalLink>.
           </span>
         </p>
@@ -469,7 +476,10 @@ const events: Event[] = [
           <span>Hukan oma rento tapahtuma keskittyen värttinään ja kasvivärjäykseen.</span>
         </p>
         <p>
-          <span>Lisätietoa tapahtumasta tulee piakkoin.</span>
+          <span>
+            Lisätietoa tapahtumasta löytyy{" "}
+            <ExternalLink href="https://www.hukka.org/events/varttina-varipata/">sen nettisivuilta</ExternalLink>.
+          </span>
         </p>
         <p>
           <span>
@@ -493,7 +503,13 @@ const events: Event[] = [
           </span>
         </p>
         <p>
-          <span>Lisätietoa tulee kevään aikana.</span>
+          <span>Ilmoittautuminen alkaa 15.4.2024 klo 19.00.</span>
+        </p>
+        <p>
+          <span>
+            Lisätietoa tulee löytyy{" "}
+            <ExternalLink href="https://cudgelwar.wordpress.com/">tapahtuman nettisivuilta</ExternalLink>.
+          </span>
         </p>
       </>
     ),
