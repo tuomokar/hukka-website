@@ -602,10 +602,24 @@ const Calendar: FC = () => (
         <h3>Taistelutreenit</h3>
 
         <div>
-          Taistelutreenejä on pääsääntöisesti joka torstai Viikissä klo 18 alkaen. Lainatavaroita löytyy jonkun verran,
-          kunhan kerrot etukäteen että olisit kiinnostunut tulemaan. Alkuun et tarvitse itse mitään muuta kuin kevyet
-          pitkähihaiset vaatteet, jotka saavat hikeentyä. Marski ja/tai vouti voi kertoa tarkan osoitteen
-          (yhteystiedot-sivulta löytyy sähköposti).
+          <p>
+            <span>
+              Taistelutreenejä on pääsääntöisesti joka torstai klo 18 alkaen. Lainatavaroita löytyy jonkun verran,
+              kunhan kerrot etukäteen esim. voudille ja/tai marskille että olisit kiinnostunut tulemaan (kannattaa
+              kertoa myös siltä kannalta, että joskus voi olla, että treenit peruuntuvat syystä tai toisesta). Alkuun et
+              tarvitse itse mitään muuta kuin kevyet pitkähihaiset vaatteet, jotka saavat hikeentyä.
+            </span>
+          </p>
+          <p>
+            <span>
+              Taistelutreenit pidetään{" "}
+              <ExternalLink href="https://helsinkimedievalcombat.com/">Helsinki Medieval Combat ry:n </ExternalLink>
+              (eli buhurttiharrastajien) upeissa tiloissa Helsingin Viikissä (HMC:n nettisivuilta löytyy tarkka osoite).
+              Ensimmäinen treenikerta on ilmainen, mutta sen jälkeen voi maksaa joko erittäin kohtuullisen
+              kuukausittaisen treenimaksun tai kertamaksun jos käy satunnaisesti. Samalla treenimaksulla voi myös käydä
+              buhurttiharrastajien treeneissä.
+            </span>
+          </p>
         </div>
       </div>
     </>
