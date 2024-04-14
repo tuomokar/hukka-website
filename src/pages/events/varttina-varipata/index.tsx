@@ -12,7 +12,7 @@ const VarttinaAndVaripataInformation: FC = () => (
       <NavigationContainer>
         <StyledInternalLink to="/events/varttina-varipata">Tapahtumainfo suomeksi</StyledInternalLink>
         <StyledInternalLink to="/events/varttina-varipata/en">Event information in English</StyledInternalLink>
-        <StyledInternalLink to="/events/varttina-varipata/registered">Ilmoittautuneet / Registered</StyledInternalLink>
+        {/* <StyledInternalLink to="/events/varttina-varipata/registered">Ilmoittautuneet / Registered</StyledInternalLink> */}
       </NavigationContainer>
     </HeaderContainer>
 

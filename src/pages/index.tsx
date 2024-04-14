@@ -79,10 +79,35 @@ const IndexPage = () => {
           <h2 id="ajankohtaista">Ajankohtaista</h2>
 
           <div>
+            <h3>Kevään ja kesän tapahtumat</h3>
+
+            <div>
+              <h4>Värttinä & Väripata</h4>
+
+              <div>
+                Hukan oma värjäystapahtuma järjestetään toukokuussa. Tapahtumassa on vielä tilaa, tule mukaan!
+                Lisätietoa{" "}
+                <ExternalLink href="https://www.hukka.org/events/varttina-varipata/">sen nettisivuilta</ExternalLink>
+              </div>
+            </div>
+
+            <div>
+              <h4>Nuijasota</h4>
+
+              <div>
+                Kattoseuramme järjestämä Nuijasota on taas heinäkuussa. Luvassa reilun viikon ajan hauskanpitoa, tule
+                rohkeasti mukaan. Voit tulla myös päiväkäynnille tai esim. pariksi päiväksi. Lisätietoa
+                tapahtumasta&nbsp;
+                <ExternalLink href="https://cudgelwar.wordpress.com/">löytyy sen nettisivuilta</ExternalLink>
+              </div>
+            </div>
+          </div>
+
+          <div>
             <h3>Kevätkausi 2024</h3>
 
             <div>
-              Hukan kevätkausi alkaa 14.1.2024. Ohjelma löytyy <Link to="/calendar">Kalenteri-sivulta</Link>. Tule
+              Hukan kevätkausi on täydessä vauhdissa. Ohjelma löytyy <Link to="/calendar">Kalenteri-sivulta</Link>. Tule
               mukaan milloin vain, olet sitten uusi tai vanha!
             </div>
           </div>

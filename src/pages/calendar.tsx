@@ -247,9 +247,8 @@ const events: Event[] = [
         </p>
         <p>
           <span>
-            Tapahtuman ilmoittautuminen on auki. Linkki ilmoittautumiseen ja lisätietoa tapahtumasta löytyy sen
-            nettisivuilta.&nbsp;
-            <ExternalLink href="https://cudgelwar.wordpress.com/">oma ryhmänsä Facebookiin</ExternalLink>
+            Tapahtuman ilmoittautuminen on auki. Linkki ilmoittautumiseen ja lisätietoa tapahtumasta&nbsp;
+            <ExternalLink href="https://cudgelwar.wordpress.com/">löytyy sen nettisivuilta</ExternalLink>
           </span>
         </p>
       </>
