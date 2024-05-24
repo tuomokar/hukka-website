@@ -96,7 +96,12 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2024-05-26",
-    title: "Kevätkauden päättäjäiset",
+    title: "Vapaamuotoista ompelua. Kaavoitusapua tarjolla",
+    additionalDescription: (
+      <>
+        <span>Myös uudet erittäin tervetulleita!</span>
+      </>
+    ),
   },
 ];
 
@@ -502,9 +507,6 @@ const events: Event[] = [
           </span>
         </p>
         <p>
-          <span>Ilmoittautuminen alkaa 15.4.2024 klo 19.00.</span>
-        </p>
-        <p>
           <span>
             Lisätietoa tulee löytyy{" "}
             <ExternalLink href="https://cudgelwar.wordpress.com/">tapahtuman nettisivuilta</ExternalLink>.
@@ -565,6 +567,47 @@ const Calendar: FC = () => (
       </div>
 
       <EventsContainer>
+        <h3>Muuta</h3>
+        <div>
+          <p>
+            <span>
+              <SundayActivity
+                date={"2024-06-09"}
+                title={"Pikniköintiä Oulunkylässä"}
+                additionalDescription={
+                  <span>
+                    Tehdään käsitöitä, syödään nyyttäriruokaa ja pidetään hauskaa. Tästä lisätietoa ja kellonaika
+                  </span>
+                }
+                noMeeting={false}
+                isCanceled={false}
+                cancelReason={null}
+              />
+            </span>
+          </p>
+
+          <p>
+            <span>
+              <SundayActivity
+                date={"2024-08-10"}
+                title={"Helsingan keskiaikapäivä"}
+                additionalDescription={
+                  <span>
+                    Osallistumme Helsingan keskiaikapäivään! Elävöitämme tapahtumassa keskiaikaa, teemme käsitöitä,
+                    mahdollisesti taistelemme sekä tietysti esittelemme seuramme toimintaa. Tule mukaan tai edes
+                    moikkaamaan!
+                  </span>
+                }
+                noMeeting={false}
+                isCanceled={false}
+                cancelReason={null}
+              />
+            </span>
+          </p>
+        </div>
+      </EventsContainer>
+
+      <EventsContainer>
         <h3>Harrastajien keskiaikatapahtumat</h3>
         <div>
           <p>
@@ -611,12 +654,12 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>
-              Taistelutreenit pidetään{" "}
+              Taistelutreenit pidetään kesän ajan Kannelmäessä. Syksyllä siirrymme sisätiloihin Viikkiin
               <ExternalLink href="https://helsinkimedievalcombat.com/">Helsinki Medieval Combat ry:n </ExternalLink>
-              (eli buhurttiharrastajien) upeissa tiloissa Helsingin Viikissä (HMC:n nettisivuilta löytyy tarkka osoite).
-              Ensimmäinen treenikerta on ilmainen, mutta sen jälkeen voi maksaa joko erittäin kohtuullisen
+              (eli buhurttiharrastajien) tiloihin Helsingin Viikissä (HMC:n nettisivuilta löytyy tarkka osoite). Siellä
+              ensimmäinen treenikerta on ilmainen, mutta sen jälkeen voi maksaa joko erittäin kohtuullisen
               kuukausittaisen treenimaksun tai kertamaksun jos käy satunnaisesti. Samalla treenimaksulla voi myös käydä
-              buhurttiharrastajien treeneissä.
+              buhurttiharrastajien treeneissä. Kesän ajan ulkotreeneissä ei ole treenimaksuja.
             </span>
           </p>
         </div>

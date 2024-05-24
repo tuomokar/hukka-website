@@ -66,8 +66,8 @@ const IndexPage = () => {
             </ul>
 
             <p>
-              <Link to="/calendar">Kalenteri-sivulta</Link> löydät kevään aikataulun. Erilaisista aktiviteeteistamme
-              voit myös tarkemmin lukea lisää kattoseuramme&nbsp;
+              <Link to="/calendar">Kalenteri-sivulta</Link> löydät aikatauluja. Erilaisista aktiviteeteistamme voit myös
+              tarkemmin lukea lisää kattoseuramme&nbsp;
               <ExternalLink href="https://www.aarnimetsa.org/sivu-keskiaika-harrastuksena/">
                 Suomen Keskiaikaseuran sivuilta.
               </ExternalLink>
@@ -79,36 +79,41 @@ const IndexPage = () => {
           <h2 id="ajankohtaista">Ajankohtaista</h2>
 
           <div>
-            <h3>Kevään ja kesän tapahtumat</h3>
-
-            <div>
-              <h4>Värttinä & Väripata</h4>
-
-              <div>
-                Hukan oma värjäystapahtuma järjestetään toukokuussa. Tapahtumassa on vielä tilaa, tule mukaan!
-                Lisätietoa{" "}
-                <ExternalLink href="https://www.hukka.org/events/varttina-varipata/">sen nettisivuilta</ExternalLink>
-              </div>
-            </div>
+            <h3>Kesän tapahtumat</h3>
 
             <div>
               <h4>Nuijasota</h4>
 
               <div>
-                Kattoseuramme järjestämä Nuijasota on taas heinäkuussa. Luvassa reilun viikon ajan hauskanpitoa, tule
-                rohkeasti mukaan. Voit tulla myös päiväkäynnille tai esim. pariksi päiväksi. Lisätietoa
-                tapahtumasta&nbsp;
+                Kattoseuramme järjestämä Nuijasota on taas heinäkuussa. Luvassa reilun viikon ajan hauskanpitoa - joka
+                päivä on monenlaista opetusta liittyen erilaisiin keskiaikaisiin asioihin. On myös jousiammuntaa,
+                miekkailua yms. Tapahtuma on myös erittäin perheystävällinen. Voit tulla joko koko ajaksi tai
+                päiväkäynnille tai esim. pariksi päiväksi. Tule rohkeasti mukaan! Lisätietoa tapahtumasta&nbsp;
                 <ExternalLink href="https://cudgelwar.wordpress.com/">löytyy sen nettisivuilta</ExternalLink>
               </div>
             </div>
           </div>
 
           <div>
-            <h3>Kevätkausi 2024</h3>
+            <h3>2024 kesän ja syksyn toiminta</h3>
 
             <div>
-              Hukan kevätkausi on täydessä vauhdissa. Ohjelma löytyy <Link to="/calendar">Kalenteri-sivulta</Link>. Tule
-              mukaan milloin vain, olet sitten uusi tai vanha!
+              <p>
+                <span>
+                  26.5. on kevään viimeinen sunnuntaitapaaminen Nuotalla (uudetkin tervetuloa!), mutta sitten ne jäävät
+                  tauolle. Kesäkuussa on luvassa pikniköintiä ja elokuun alkupuolella olemme mukana Helsingan
+                  keskiaikapäivässä.
+                </span>
+              </p>
+              <p>
+                <span>Näiden lisäksi taistelutreenejä on lähes joka viikko myös kesän ajan.</span>
+              </p>
+              <p>
+                <span>
+                  Elokuun lopussa aloitamme taas viikottaiset sunnuntaitapaamiset erilaisten keskiaikateemaisten
+                  aktiviteettien parissa.
+                </span>
+              </p>
             </div>
           </div>
 
