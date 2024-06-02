@@ -3,6 +3,7 @@ import { HeadFC, Link } from "gatsby";
 import { Layout } from "../components/layout";
 import { ExternalLink } from "../components/external-link";
 import AutumnSocietyMeetingInvidation from "../content/AutumnSocietyMeetingInvidation.mdx";
+import SpringSocietyMeetingInvitation from "../content/SpringSocietyMeetingInvitation.mdx";
 import SearchingForOfficers from "../content/SearchingForOfficers.mdx";
 import {
   isAutumnSocietyMeetingInvitationDisplayed,
@@ -79,6 +80,32 @@ const IndexPage = () => {
           <h2 id="ajankohtaista">Ajankohtaista</h2>
 
           <div>
+            <h3>Kevätkokous ja piknik 9.6.</h3>
+            <div>
+              <p>
+                <span>
+                  Sunnuntaina 9.6. järjestämme piknikin, jonka yhteydessä on myös yhdistyksen virallinen kevätkokous,
+                  johon kaikki (myös ei-jäsenet) voivat osallistua. Piknikillä on tarkoitus tehdä omia käsitöitä sekä
+                  syödä nyyttäri-mallilla. Piknik aloitetaan klo 13 se pidetään Oulunkylässä Mäkitorpanpuistossa Ogelin
+                  kauppakeskuksen vastapäätä olevan leikkipuiston vieressä olevalla nurmialueella (jos aurinko kovasti
+                  painaa, siellä on isoja puita varjoa tuomassa).
+                </span>
+              </p>
+              <p>
+                <span>
+                  Mikäli sattuu olemaan huono sää, piknikin sijasta kokoonnumme voudin luona Helsingin Maunulassa
+                  osoitteessa Maunulanmäki 1 F 72, 00630 Helsinki.
+                </span>
+              </p>
+              <p>
+                <span>
+                  Virallinen yhdistyksen kokous pidetään piknikin yhteydessä klo 14 alkaen. Ks. alla virallinen kutsu.
+                </span>
+              </p>
+            </div>
+          </div>
+
+          <div>
             <h3>Kesän tapahtumat</h3>
 
             <div>
@@ -124,7 +151,7 @@ const IndexPage = () => {
             </>
           )}
 
-          {isSpringSocietyMeetingInvitationDisplayed() && <>{/* TODO */}</>}
+          {isSpringSocietyMeetingInvitationDisplayed() && <>{<SpringSocietyMeetingInvitation />}</>}
         </div>
       </>
     </Layout>
