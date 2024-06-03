@@ -537,6 +537,14 @@ const Calendar: FC = () => (
           <p>
             <span>Nuotan osoite Kylänvanhimmantie 25B. Se on aivan Oulunkylän juna-aseman vieressä.</span>
           </p>
+          <p>
+            <span>
+              Kevään ohjelma ehti jo mennä, mutta tässä vielä näkyvillä se, mitä kaikkea teimme kevään aikana.
+            </span>
+          </p>
+          <p>
+            <span>Syksylle tulee sitten oma ohjelmansa ennen syyskauden alkua elokuussa.</span>
+          </p>
         </div>
 
         <div>
@@ -575,9 +583,21 @@ const Calendar: FC = () => (
                 date={"2024-06-09"}
                 title={"Pikniköintiä Oulunkylässä"}
                 additionalDescription={
-                  <span>
-                    Tehdään käsitöitä, syödään nyyttäriruokaa ja pidetään hauskaa. Tästä lisätietoa ja kellonaika
-                  </span>
+                  <>
+                    <span>
+                      Kokoonnutaan Oulunkylässä Mäkitorpan puistossa (Ogelia vastapäätä olevan leikkipuiston vieressä
+                      olevalla nurmialueella) klo 13 alkaen. Tuo mukanasi viltti, nyyttärisyötävää sekä omat astiat. Jos
+                      sinulla on keskiaikavaatteet, toivomus on, että tulisit niissä, mutta saa tulla ilmankin jos siltä
+                      tuntuu! Myös esim. jokin käsityö voi olla ihan kiva ottaa mukaan tehtäväksi. Jotta vältetään että
+                      moni ihminen toisi samaa syötävää, kerro voudille esim. sähköpostilla tai Facebookissa, mitä
+                      olisit tuomassa. Puistossa on aika reilusti puita, jotka tuovat kivasti varjoa, joten ei tarvitse
+                      mahdollisessa auringossa kärventyä.
+                    </span>
+                    <span>
+                      Mikäli sattuu tulemaan huono sää, kokoonnumme voudin luona Maunulassa osoitteessa Maunulanmäki 1 F
+                      72. Ovikoodin saa voudilta tuolloin.
+                    </span>
+                  </>
                 }
                 noMeeting={false}
                 isCanceled={false}
