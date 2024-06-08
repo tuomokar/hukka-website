@@ -581,21 +581,12 @@ const Calendar: FC = () => (
             <span>
               <SundayActivity
                 date={"2024-06-09"}
-                title={"Pikniköintiä Oulunkylässä"}
+                title={"Käsitöitä ja nyyttärit Maunulassa"}
                 additionalDescription={
                   <>
                     <span>
-                      Kokoonnutaan Oulunkylässä Mäkitorpan puistossa (Ogelia vastapäätä olevan leikkipuiston vieressä
-                      olevalla nurmialueella) klo 13 alkaen. Tuo mukanasi viltti, nyyttärisyötävää sekä omat astiat. Jos
-                      sinulla on keskiaikavaatteet, toivomus on, että tulisit niissä, mutta saa tulla ilmankin jos siltä
-                      tuntuu! Myös esim. jokin käsityö voi olla ihan kiva ottaa mukaan tehtäväksi. Jotta vältetään että
-                      moni ihminen toisi samaa syötävää, kerro voudille esim. sähköpostilla tai Facebookissa, mitä
-                      olisit tuomassa. Puistossa on aika reilusti puita, jotka tuovat kivasti varjoa, joten ei tarvitse
-                      mahdollisessa auringossa kärventyä.
-                    </span>
-                    <span>
-                      Mikäli sattuu tulemaan huono sää, kokoonnumme voudin luona Maunulassa osoitteessa Maunulanmäki 1 F
-                      72. Ovikoodin saa voudilta tuolloin.
+                      Kokoonnutaan Maunulassa voudin luona tekemään käsitöitä sekä syömään ja juomaan nyyttärihengessä.
+                      Ks. pääsivu, josta löytyy lisää tietoa asiasta.
                     </span>
                   </>
                 }

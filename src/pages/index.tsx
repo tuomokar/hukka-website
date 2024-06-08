@@ -4,6 +4,7 @@ import { Layout } from "../components/layout";
 import { ExternalLink } from "../components/external-link";
 import AutumnSocietyMeetingInvidation from "../content/AutumnSocietyMeetingInvidation.mdx";
 import SpringSocietyMeetingInvitation from "../content/SpringSocietyMeetingInvitation.mdx";
+import MainPageTopicalThings from "../content/MainPageTopicalThings.mdx";
 import SearchingForOfficers from "../content/SearchingForOfficers.mdx";
 import {
   isAutumnSocietyMeetingInvitationDisplayed,
@@ -79,70 +80,7 @@ const IndexPage = () => {
         <div>
           <h2 id="ajankohtaista">Ajankohtaista</h2>
 
-          <div>
-            <h3>Kevätkokous ja piknik 9.6.</h3>
-            <div>
-              <p>
-                <span>
-                  Sunnuntaina 9.6. järjestämme piknikin, jonka yhteydessä on myös yhdistyksen virallinen kevätkokous,
-                  johon kaikki (myös ei-jäsenet) voivat osallistua. Piknikillä on tarkoitus tehdä omia käsitöitä sekä
-                  syödä nyyttäri-mallilla. Piknik aloitetaan klo 13 se pidetään Oulunkylässä Mäkitorpanpuistossa Ogelin
-                  kauppakeskuksen vastapäätä olevan leikkipuiston vieressä olevalla nurmialueella (jos aurinko kovasti
-                  painaa, siellä on isoja puita varjoa tuomassa).
-                </span>
-              </p>
-              <p>
-                <span>
-                  Mikäli sattuu olemaan huono sää, piknikin sijasta kokoonnumme voudin luona Helsingin Maunulassa
-                  osoitteessa Maunulanmäki 1 F 72, 00630 Helsinki.
-                </span>
-              </p>
-              <p>
-                <span>
-                  Virallinen yhdistyksen kokous pidetään piknikin yhteydessä klo 14 alkaen. Ks. alla virallinen kutsu.
-                </span>
-              </p>
-            </div>
-          </div>
-
-          <div>
-            <h3>Kesän tapahtumat</h3>
-
-            <div>
-              <h4>Nuijasota</h4>
-
-              <div>
-                Kattoseuramme järjestämä Nuijasota on taas heinäkuussa. Luvassa reilun viikon ajan hauskanpitoa - joka
-                päivä on monenlaista opetusta liittyen erilaisiin keskiaikaisiin asioihin. On myös jousiammuntaa,
-                miekkailua yms. Tapahtuma on myös erittäin perheystävällinen. Voit tulla joko koko ajaksi tai
-                päiväkäynnille tai esim. pariksi päiväksi. Tule rohkeasti mukaan! Lisätietoa tapahtumasta&nbsp;
-                <ExternalLink href="https://cudgelwar.wordpress.com/">löytyy sen nettisivuilta</ExternalLink>
-              </div>
-            </div>
-          </div>
-
-          <div>
-            <h3>2024 kesän ja syksyn toiminta</h3>
-
-            <div>
-              <p>
-                <span>
-                  26.5. on kevään viimeinen sunnuntaitapaaminen Nuotalla (uudetkin tervetuloa!), mutta sitten ne jäävät
-                  tauolle. Kesäkuussa on luvassa pikniköintiä ja elokuun alkupuolella olemme mukana Helsingan
-                  keskiaikapäivässä.
-                </span>
-              </p>
-              <p>
-                <span>Näiden lisäksi taistelutreenejä on lähes joka viikko myös kesän ajan.</span>
-              </p>
-              <p>
-                <span>
-                  Elokuun lopussa aloitamme taas viikottaiset sunnuntaitapaamiset erilaisten keskiaikateemaisten
-                  aktiviteettien parissa.
-                </span>
-              </p>
-            </div>
-          </div>
+          <MainPageTopicalThings />
 
           {isAutumnSocietyMeetingInvitationDisplayed() && (
             <>
