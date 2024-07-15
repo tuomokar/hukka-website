@@ -515,6 +515,56 @@ const events: Event[] = [
       </>
     ),
   },
+  {
+    dateStart: "2024-09-06",
+    dateEnd: "2024-09-08",
+    title: "Taistelulajien treenileiri",
+    description: (
+      <>
+        <p>
+          <span>
+            Rottinkitaistelua, kalpamiekkailua sekä jousiammuntaa Kangaslahden leirikeskuksessa Jyväskylän lähellä
+            sisarseuramme Kaarnemaan järjestämänä.
+          </span>
+        </p>
+        <p>
+          <span>
+            Lisätietoa tulee löytyy{" "}
+            <ExternalLink href="https://www.facebook.com/events/965436178299269">Facebookista</ExternalLink>.
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-11-08",
+    dateEnd: "2024-11-10",
+    title: "Kekrijuhla",
+    description: (
+      <>
+        <p>
+          <span>
+            Hukan oma Kekrijuhla-tapahtuma Tuusulan Metsäpirtillä. Luvassa rento viikonloppu hyvän ruoan, saunomisen,
+            käsitöiden sekä erilaisten taistelutaitojen harrastamisen parissa. Lisätietoa tulee piakkoin.
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2024-12-05",
+    dateEnd: "2024-12-08",
+    title: "Annanpäivät",
+    description: (
+      <>
+        <p>
+          <span>
+            Sisarseuramme Poukan järjestämä tapahtuma Pyhällön Lintukodossa. Lisätietoa tulee alkusyksyn aikana.
+          </span>
+        </p>
+      </>
+    ),
+  },
 ];
 
 const Calendar: FC = () => (
@@ -577,26 +627,6 @@ const Calendar: FC = () => (
       <EventsContainer>
         <h3>Muuta</h3>
         <div>
-          <p>
-            <span>
-              <SundayActivity
-                date={"2024-06-09"}
-                title={"Käsitöitä ja nyyttärit Maunulassa"}
-                additionalDescription={
-                  <>
-                    <span>
-                      Kokoonnutaan Maunulassa voudin luona tekemään käsitöitä sekä syömään ja juomaan nyyttärihengessä.
-                      Ks. pääsivu, josta löytyy lisää tietoa asiasta.
-                    </span>
-                  </>
-                }
-                noMeeting={false}
-                isCanceled={false}
-                cancelReason={null}
-              />
-            </span>
-          </p>
-
           <p>
             <span>
               <SundayActivity
@@ -665,7 +695,7 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>
-              Taistelutreenit pidetään kesän ajan Kannelmäessä. Syksyllä siirrymme sisätiloihin Viikkiin
+              Taistelutreenit pidetään kesän ajan Kannelmäessä. Syksyllä siirrymme sisätiloihin Viikkiin{" "}
               <ExternalLink href="https://helsinkimedievalcombat.com/">Helsinki Medieval Combat ry:n </ExternalLink>
               (eli buhurttiharrastajien) tiloihin Helsingin Viikissä (HMC:n nettisivuilta löytyy tarkka osoite). Siellä
               ensimmäinen treenikerta on ilmainen, mutta sen jälkeen voi maksaa joko erittäin kohtuullisen
