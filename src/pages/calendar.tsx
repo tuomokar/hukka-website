@@ -13,95 +13,97 @@ import { SundayActivity as SundayActivityType } from "../types/Activities";
 
 const sundayActivities: SundayActivityType[] = [
   {
-    date: "2024-01-14",
+    date: "2024-08-18",
     title: "Käsitöiden tekoa",
-  },
-  {
-    date: "2024-01-21",
-    title: "Paronillisen lahjakorin täyttämistä",
-  },
-  {
-    date: "2024-01-28",
-    title: "Kynttiläpaja (pikkujouluista siirtynyt)",
-  },
-  {
-    date: "2024-02-04",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2024-02-11",
-    title: "Jousiammuntaa",
-  },
-  {
-    date: "2024-02-18",
-    title: "Sisarseuramme Unikankareen Sydäntalvenjuhla viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2024-02-25",
-    title: "hiihtoloma",
-    noMeeting: true,
-  },
-  {
-    date: "2024-03-03",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2024-03-10",
-    title: "Sisarseuramme Poukan järjestämä Skriptorium-tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2024-03-17",
-    title: "Kirjansidontaa: koptisidos",
-  },
-  {
-    date: "2024-03-24",
-    title: "Laulua ja musisointia",
-  },
-  {
-    date: "2024-03-31",
-    title: "Pääsiäinen",
-    noMeeting: true,
-  },
-  {
-    date: "2024-04-07",
-    title: "Scriptorium",
-  },
-  {
-    date: "2024-04-14",
-    title: "Jousiammuntaa",
-  },
-  {
-    date: "2024-04-21",
-    title: "Sisarseuramme Miehonlinnan järjestämä Suwiyöt-tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2024-04-28",
-    title: "Hukan kevättanssiaiset",
-  },
-  {
-    date: "2024-05-05",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2024-05-12",
-    title: "Jousiammuntaa",
-  },
-  {
-    date: "2024-05-19",
-    title: "Hukan oma Värttinä & Väripata -tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2024-05-26",
-    title: "Vapaamuotoista ompelua. Kaavoitusapua tarjolla",
     additionalDescription: (
-      <>
-        <span>Myös uudet erittäin tervetulleita!</span>
-      </>
+      <span>
+        Syyskauden alku. Tehdään omia vapaamuotoisia käsitöitä, joten jos sinulla on mikään keskeneräinen käsityö, ota
+        se mukaan ja tule tekemään sitä kanssamme! Jos olet uusi, saa tietysti tulla myös tutustumaan ja kyselemään.
+      </span>
     ),
+  },
+  {
+    date: "2024-08-25",
+    title: "Uusien ilta",
+    additionalDescription: (
+      <span>
+        Mukaan toimintaamme saa tulla milloin vain, mutta tämä on erityisesti sinulle, joka olet mahdollisesti
+        kiinnostunut toiminnastamme ja/tai keskiajan elävöittämisestä! Tule rohkeasti mukaan tutustumaan!
+      </span>
+    ),
+  },
+  {
+    date: "2024-09-01",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "2024-09-08",
+    title: "Sisarseuramme Kaarnemaan järjestämä taisteluleiri-tapahtuma viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2024-09-15",
+    title: "Jousiammuntaa liikuntasalissa",
+  },
+  {
+    date: "2024-09-22",
+    title: "Museovierailu Sinebrychoffilla",
+    additionalDescription: (
+      <span>Huom. tällöin ei olla Nuotalla ollenkaan. Tpaamisesta tulee lisätietoa myöhemmin.</span>
+    ),
+  },
+  {
+    date: "2024-09-29",
+    title: "??? (ohjelma tarkentuu myöhemmin",
+  },
+  {
+    date: "2024-10-06",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "2024-10-13",
+    title: "Jousiammuntaa liikuntasalissa",
+  },
+  {
+    date: "2024-10-20",
+    title: "??? (ohjelma tarkentuu myöhemmin)",
+  },
+  {
+    date: "2024-10-27",
+    title: "Alusmekon tai -paidan tekoa",
+  },
+  {
+    date: "2024-11-03",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "2024-11-10",
+    title: "Hukan oma Kekrijuhla-tapahtuma viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2024-11-17",
+    title: "Lautanauha osa 1",
+  },
+  {
+    date: "2024-11-24",
+    title: "Lautanauha: osa 2",
+    additionalDescription: (
+      <span>HUOM. Tämän kerran paikka ja aika saattaa vielä vaihtua jonnekin muualle kuin Nuotalle</span>
+    ),
+  },
+  {
+    date: "2024-12-01",
+    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
+  },
+  {
+    date: "2024-12-08",
+    title: "Sisarseuramme Poukan järjestämä Annanpäivät-tapahtuma viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2024-12-15",
+    title: "Pikkujoulut",
   },
 ];
 
@@ -581,7 +583,8 @@ const Calendar: FC = () => (
               Tapaamisissa tehdään joka viikko jotakin keskiaikaan liittyvää jollain tietyllä teemalla. Voit tulla
               mukaan pääosin ilmoittamatta - joissakin saatetaan pyytää ilmoittautuminen etukäteen, että osataan
               varautua tarvittavalla määrällä materiaalia. Tapaamiset ovat sunnuntaisin klo 18.00 alkaen. Opetus on
-              pääosin ilmaista, mutta joskus saattaa olla pieniä materiaalimaksuja.
+              pääosin ilmaista, mutta joskus saattaa olla pieniä materiaalimaksuja. Olemme tapaamisissa pääsääntöisesti
+              ihan arkivaatteissa.
             </span>
           </p>
           <p>
@@ -589,11 +592,8 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>
-              Kevään ohjelma ehti jo mennä, mutta tässä vielä näkyvillä se, mitä kaikkea teimme kevään aikana.
+              Syksyn ohjelman muodostus on vielä aavistuksen kesken, mutta tässä on alustava listaus ohjelmasta
             </span>
-          </p>
-          <p>
-            <span>Syksylle tulee sitten oma ohjelmansa ennen syyskauden alkua elokuussa.</span>
           </p>
         </div>
 
@@ -624,6 +624,7 @@ const Calendar: FC = () => (
         </div>
       </div>
 
+      {/* 
       <EventsContainer>
         <h3>Muuta</h3>
         <div>
@@ -647,6 +648,7 @@ const Calendar: FC = () => (
           </p>
         </div>
       </EventsContainer>
+       */}
 
       <EventsContainer>
         <h3>Harrastajien keskiaikatapahtumat</h3>
