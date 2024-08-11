@@ -697,7 +697,9 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>
-              Taistelutreenit pidetään kesän ajan Kannelmäessä. Syksyllä siirrymme sisätiloihin Viikkiin{" "}
+              Taistelutreenit pidetään kesän ajan Kannelmäessä, useimmiten{" "}
+              <ExternalLink href="https://maps.app.goo.gl/gQ4brG9vrzqYAs2P9">Pasuunapuistossa</ExternalLink>{" "}
+              (kokoonnumme puistossa olevan hirvipatsaan luona). Syksyllä siirrymme sisätiloihin Viikkiin{" "}
               <ExternalLink href="https://helsinkimedievalcombat.com/">Helsinki Medieval Combat ry:n </ExternalLink>
               (eli buhurttiharrastajien) tiloihin Helsingin Viikissä (HMC:n nettisivuilta löytyy tarkka osoite). Siellä
               ensimmäinen treenikerta on ilmainen, mutta sen jälkeen voi maksaa joko erittäin kohtuullisen
