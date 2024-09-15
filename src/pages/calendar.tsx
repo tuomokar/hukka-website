@@ -10,7 +10,6 @@ import { SundayActivity } from "../components/SundayActivity";
 import { SundayActivity as SundayActivityType } from "../types/Activities";
 
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
-
 const sundayActivities: SundayActivityType[] = [
   {
     date: "2024-08-18",
@@ -49,12 +48,18 @@ const sundayActivities: SundayActivityType[] = [
     date: "2024-09-22",
     title: "Museovierailu Sinebrychoffilla",
     additionalDescription: (
-      <span>Huom. tällöin ei olla Nuotalla ollenkaan. Tpaamisesta tulee lisätietoa myöhemmin.</span>
+      <span>
+        Huom. tällöin ei olla Nuotalla ollenkaan. Lisätietoa löydät{" "}
+        <ExternalLink href="https://www.facebook.com/events/878264680880693">Facebookista</ExternalLink> (sivun pitäisi
+        avautua myös vaikka sinulla ei ole Facebook-tiliä). Jos et ole Facebookissa, voit ilmoittautua esim.
+        sähköpostilla suoraan tiede- ja taideneuvokselle (moas (at) hucca.org).
+      </span>
     ),
   },
   {
     date: "2024-09-29",
-    title: "??? (ohjelma tarkentuu myöhemmin",
+    title: "Sudennälkä keittiössä",
+    additionalDescription: <span>Lisätietoa tulee myöhemmin.</span>,
   },
   {
     date: "2024-10-06",
@@ -66,7 +71,8 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2024-10-20",
-    title: "??? (ohjelma tarkentuu myöhemmin)",
+    title: "Nuotta syyslomalla",
+    noMeeting: true,
   },
   {
     date: "2024-10-27",
@@ -547,7 +553,9 @@ const events: Event[] = [
         <p>
           <span>
             Hukan oma Kekrijuhla-tapahtuma Tuusulan Metsäpirtillä. Luvassa rento viikonloppu hyvän ruoan, saunomisen,
-            käsitöiden sekä erilaisten taistelutaitojen harrastamisen parissa. Lisätietoa tulee piakkoin.
+            käsitöiden sekä erilaisten taistelutaitojen harrastamisen parissa. Ilmoittautuminen alkaa maanantaina 16.9.
+            klo 18.00. Lisätietoa löytyy{" "}
+            <ExternalLink href="https://kekrijuhla.wordpress.com/">tapahtuman nettisivuilta</ExternalLink>
           </span>
         </p>
       </>
@@ -589,11 +597,6 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>Nuotan osoite Kylänvanhimmantie 25B. Se on aivan Oulunkylän juna-aseman vieressä.</span>
-          </p>
-          <p>
-            <span>
-              Syksyn ohjelman muodostus on vielä aavistuksen kesken, mutta tässä on alustava listaus ohjelmasta
-            </span>
           </p>
         </div>
 
@@ -697,14 +700,16 @@ const Calendar: FC = () => (
           </p>
           <p>
             <span>
-              Taistelutreenit pidetään kesän ajan Kannelmäessä, useimmiten{" "}
-              <ExternalLink href="https://maps.app.goo.gl/gQ4brG9vrzqYAs2P9">Pasuunapuistossa</ExternalLink>{" "}
-              (kokoonnumme puistossa olevan hirvipatsaan luona). Syksyllä siirrymme sisätiloihin Viikkiin{" "}
+              Taistelutreenit pidetään syys- ja kevätkauden aikana{" "}
               <ExternalLink href="https://helsinkimedievalcombat.com/">Helsinki Medieval Combat ry:n </ExternalLink>
-              (eli buhurttiharrastajien) tiloihin Helsingin Viikissä (HMC:n nettisivuilta löytyy tarkka osoite). Siellä
+              (eli buhurttiharrastajien) tiloissa Helsingin Viikissä (HMC:n nettisivuilta löytyy tarkka osoite). Siellä
               ensimmäinen treenikerta on ilmainen, mutta sen jälkeen voi maksaa joko erittäin kohtuullisen
               kuukausittaisen treenimaksun tai kertamaksun jos käy satunnaisesti. Samalla treenimaksulla voi myös käydä
-              buhurttiharrastajien treeneissä. Kesän ajan ulkotreeneissä ei ole treenimaksuja.
+              buhurttiharrastajien treeneissä.
+            </span>
+            <span>
+              Kesäisin yleensä treenaamme ulkona Kannelmäessä, useimmiten{" "}
+              <ExternalLink href="https://maps.app.goo.gl/gQ4brG9vrzqYAs2P9">Pasuunapuistossa</ExternalLink>
             </span>
           </p>
         </div>
