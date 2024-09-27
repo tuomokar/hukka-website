@@ -59,7 +59,29 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2024-09-29",
     title: "Sudennälkä keittiössä",
-    additionalDescription: <span>Lisätietoa tulee myöhemmin.</span>,
+    additionalDescription: (
+      <span>
+        ( Jos olet kiinnostunut keskiajan ruoasta niin nyt on oiva mahdollisuus tutustua siihen. Sunnuntaina pääsee
+        opastuksella valmistamaan ruokaa sekä lopuksi maistelemaan sitä. Kustannukset jaetaan osallistujien kesken ja
+        maksaa voi opettajalle Mobilepayllä.
+        <br />
+        <br />
+        Jotta opettaja osaa varata oikean määrä aineksia sekä suunnitella valmistettavat tuotteet, on
+        etukäteisilmoittautuminen perjantaihin 27.9. klo: 18.00 saakka ilmoittamalla tiede- ja taideneuvoksellemme
+        sähköpostilla moas (at) hucca.org. Ilmoittautuessa kerro ruokavaliosi (seka/kasvis) ja mahdolliset allergiat.
+        <br />
+        <br />
+        Nämä otetaan huomioon mahdollisuuksien mukaan. Otathan kuitenkin huomioon, että jos omaat hyvin rajoitetun
+        ruokavalion voi olla ettei sitä pystytä täysin noudattamaan. Tämä ei ole este osallistua, mutta voi rajoittaa
+        mahdollisuutta maistella tuotoksia.
+        <br />
+        <br />
+        Ilmoittauduthan mukaan VAIN jos olet tulossa jotta opettaja ei turhaan hanki materiaaleja. Ilmoittautumattakin
+        voi tulla mukaan, mutta etusijalla ovat ne jotka ovat ilmoittaneet osallistumisestaan. Sohville voi toki myös
+        tulla ihan vain kuuntemaan ja tekemään omia käsitöitä. Aloitus tutusti klo 18.00. Olethan ajoissa, sillä aikaa
+        on rajoitetusti. )
+      </span>
+    ),
   },
   {
     date: "2024-10-06",
@@ -621,7 +643,7 @@ const Calendar: FC = () => (
                     cancelReason={cancelReason}
                   />
                 </SundayActivityListItem>
-              )
+              ),
             )}
           </ul>
         </div>
@@ -670,7 +692,7 @@ const Calendar: FC = () => (
           <ul>
             {events
               .filter(({ dateEnd: dateEndString }) =>
-                ((dateEnd) => isToday(dateEnd) || isFuture(dateEnd))(parseISO(dateEndString))
+                ((dateEnd) => isToday(dateEnd) || isFuture(dateEnd))(parseISO(dateEndString)),
               )
               .map(({ title, dateStart, dateEnd, description }) => (
                 <li key={title}>
