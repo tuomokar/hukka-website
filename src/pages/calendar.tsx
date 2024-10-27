@@ -98,7 +98,21 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2024-10-27",
-    title: "Alusmekon tai -paidan tekoa",
+    title: "Vapaamuotoisia käsitöitä sekä aluspaitojen ompelukurssin suunnitelua",
+    additionalDescription: (
+      <>
+        <p>
+          <span>
+            Suunnittelukerralla otetaan mittoja ja kartoitetaan tarvetta pellavan kimppatilaukselle. Lisäksi voi pohtia,
+            millaisen aluspaidan haluaa tehdä. Tarkoitus on, että keväällä tehdään yhdessä yksinkertaisia aluspaitoja,
+            jotka voi ommella koneella. Huolittelut saa halutessaan tehdä käsin.
+          </span>
+        </p>
+        <p>
+          <span>Myös kaavoitusapua on tänään tarjolla.</span>
+        </p>
+      </>
+    ),
   },
   {
     date: "2024-11-03",
