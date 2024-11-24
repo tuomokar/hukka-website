@@ -126,12 +126,29 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2024-11-17",
     title: "Lautanauha osa 1",
+    additionalDescription: (
+      <span>
+        Lisätietoa pikakurssista löytyy{" "}
+        <ExternalLink href={"https://www.facebook.com/groups/hukkary/posts/8922284847815337"}>
+          Facebookista
+        </ExternalLink>
+        . Kurssille on poikkeuksellisesti ilmoittautuminen etukäteen. Ilmoittautuminen tapahtuu{" "}
+        <ExternalLink
+          href={"https://docs.google.com/forms/d/e/1FAIpQLSciLSCwczbCEBAVYX6rfnAXabX_F4LbU0ASQUB7vaAurlTfZg/viewform"}
+        >
+          täältä
+        </ExternalLink>{" "}
+      </span>
+    ),
   },
   {
     date: "2024-11-24",
     title: "Lautanauha: osa 2",
     additionalDescription: (
-      <span>HUOM. Tämän kerran paikka ja aika saattaa vielä vaihtua jonnekin muualle kuin Nuotalle</span>
+      <span>
+        HUOM. tänään <b>ei</b> olla Nuotalla ollenkaan, vaan Ritarihuoneella ja poikkeuksellisesti jo klo 15-18.
+        Ilmoittautumiseen linkin löydät edellisen kerran kohdasta.
+      </span>
     ),
   },
   {
