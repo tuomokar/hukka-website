@@ -11,7 +11,7 @@ import { isWithinInterval, parseISO, startOfToday, subDays } from "date-fns";
 import { IsoDateString } from "dates/types";
 
 export const springSocietyMeetingDate: IsoDateString = "2024-06-09";
-export const autumnSocietyMeetingDate: IsoDateString = "2023-12-03";
+export const autumnSocietyMeetingDate: IsoDateString = "2024-12-15";
 
 export const isAutumnSocietyMeetingInvitationDisplayed = (): boolean =>
   isWithinThirtyDays(parseISO(autumnSocietyMeetingDate));
