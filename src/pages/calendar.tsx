@@ -163,6 +163,12 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2024-12-15",
     title: "Pikkujoulut",
+    additionalDescription: (
+      <span>
+        HUOM. tämä on poikkeuksellisesti Ritarihuoneella ja vaatii ei-sitovan ilmoittautumisen (ilmoittautumiseen linkki
+        tulee pian). Luvassa nyyttärit sekä lahjanryöstöä ja muuta kivaa. Ota vaikka joku oma käsityö mukaan myös.
+      </span>
+    ),
   },
 ];
 
