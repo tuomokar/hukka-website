@@ -165,8 +165,9 @@ const sundayActivities: SundayActivityType[] = [
     title: "Pikkujoulut",
     additionalDescription: (
       <span>
-        HUOM. tämä on poikkeuksellisesti Ritarihuoneella ja vaatii ei-sitovan ilmoittautumisen (ilmoittautumiseen linkki
-        tulee pian). Luvassa nyyttärit sekä lahjanryöstöä ja muuta kivaa. Ota vaikka joku oma käsityö mukaan myös.
+        HUOM. tämä on poikkeuksellisesti Ritarihuoneella ja vaatii ei-sitovan ilmoittautumisen:{" "}
+        <ExternalLink href="https://forms.gle/aNFznK6jfEAKE92P8">Ilmoittautumislinkki tässä</ExternalLink>. Luvassa
+        nyyttärit sekä lahjanryöstöä ja muuta kivaa. Ota vaikka joku oma käsityö mukaan myös.
       </span>
     ),
   },
