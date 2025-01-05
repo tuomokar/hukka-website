@@ -12,164 +12,94 @@ import { SundayActivity as SundayActivityType } from "../types/Activities";
 // Could move these to somewhere else at some point. Or use Drachenwald calendar.
 const sundayActivities: SundayActivityType[] = [
   {
-    date: "2024-08-18",
-    title: "Käsitöiden tekoa",
-    additionalDescription: (
-      <span>
-        Syyskauden alku. Tehdään omia vapaamuotoisia käsitöitä, joten jos sinulla on mikään keskeneräinen käsityö, ota
-        se mukaan ja tule tekemään sitä kanssamme! Jos olet uusi, saa tietysti tulla myös tutustumaan ja kyselemään.
-      </span>
-    ),
-  },
-  {
-    date: "2024-08-25",
-    title: "Uusien ilta",
-    additionalDescription: (
-      <span>
-        Mukaan toimintaamme saa tulla milloin vain, mutta tämä on erityisesti sinulle, joka olet mahdollisesti
-        kiinnostunut toiminnastamme ja/tai keskiajan elävöittämisestä! Tule rohkeasti mukaan tutustumaan!
-      </span>
-    ),
-  },
-  {
-    date: "2024-09-01",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2024-09-08",
-    title: "Sisarseuramme Kaarnemaan järjestämä taisteluleiri-tapahtuma viikonloppuna",
-    noMeeting: true,
-  },
-  {
-    date: "2024-09-15",
+    date: "2025-01-12",
     title: "Jousiammuntaa liikuntasalissa",
   },
   {
-    date: "2024-09-22",
-    title: "Museovierailu Sinebrychoffilla",
-    additionalDescription: (
-      <span>
-        Huom. tällöin ei olla Nuotalla ollenkaan. Lisätietoa löydät{" "}
-        <ExternalLink href="https://www.facebook.com/events/878264680880693">Facebookista</ExternalLink> (sivun pitäisi
-        avautua myös vaikka sinulla ei ole Facebook-tiliä). Jos et ole Facebookissa, voit ilmoittautua esim.
-        sähköpostilla suoraan tiede- ja taideneuvokselle (moas (at) hucca.org).
-      </span>
-    ),
+    date: "2025-01-19",
+    title: "Sisarseuramme Humamasalon järjestämä Talvi-ilta-tapahtuma viikonloppuna",
+    noMeeting: true,
   },
   {
-    date: "2024-09-29",
-    title: "Sudennälkä keittiössä",
-    additionalDescription: (
-      <span>
-        ( Jos olet kiinnostunut keskiajan ruoasta niin nyt on oiva mahdollisuus tutustua siihen. Sunnuntaina pääsee
-        opastuksella valmistamaan ruokaa sekä lopuksi maistelemaan sitä. Kustannukset jaetaan osallistujien kesken ja
-        maksaa voi opettajalle Mobilepayllä.
-        <br />
-        <br />
-        Jotta opettaja osaa varata oikean määrä aineksia sekä suunnitella valmistettavat tuotteet, on
-        etukäteisilmoittautuminen perjantaihin 27.9. klo: 18.00 saakka ilmoittamalla tiede- ja taideneuvoksellemme
-        sähköpostilla moas (at) hucca.org. Ilmoittautuessa kerro ruokavaliosi (seka/kasvis) ja mahdolliset allergiat.
-        <br />
-        <br />
-        Nämä otetaan huomioon mahdollisuuksien mukaan. Otathan kuitenkin huomioon, että jos omaat hyvin rajoitetun
-        ruokavalion voi olla ettei sitä pystytä täysin noudattamaan. Tämä ei ole este osallistua, mutta voi rajoittaa
-        mahdollisuutta maistella tuotoksia.
-        <br />
-        <br />
-        Ilmoittauduthan mukaan VAIN jos olet tulossa jotta opettaja ei turhaan hanki materiaaleja. Ilmoittautumattakin
-        voi tulla mukaan, mutta etusijalla ovat ne jotka ovat ilmoittaneet osallistumisestaan. Sohville voi toki myös
-        tulla ihan vain kuuntemaan ja tekemään omia käsitöitä. Aloitus tutusti klo 18.00. Olethan ajoissa, sillä aikaa
-        on rajoitetusti. )
-      </span>
-    ),
+    date: "2025-01-26",
+    title: "Paitakurssi: osa 1",
   },
   {
-    date: "2024-10-06",
+    date: "2025-02-02",
     title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
-    date: "2024-10-13",
+    date: "2025-02-09",
     title: "Jousiammuntaa liikuntasalissa",
   },
   {
-    date: "2024-10-20",
-    title: "Nuotta syyslomalla",
+    date: "2025-02-16",
+    title: "Sisarseuramme Unikankareen järjestämä Sydäntalven juhla viikonloppuna",
     noMeeting: true,
   },
   {
-    date: "2024-10-27",
-    title: "Vapaamuotoisia käsitöitä sekä aluspaitojen ompelukurssin suunnitelua",
-    additionalDescription: (
-      <>
-        <p>
-          <span>
-            Suunnittelukerralla otetaan mittoja ja kartoitetaan tarvetta pellavan kimppatilaukselle. Lisäksi voi pohtia,
-            millaisen aluspaidan haluaa tehdä. Tarkoitus on, että keväällä tehdään yhdessä yksinkertaisia aluspaitoja,
-            jotka voi ommella koneella. Huolittelut saa halutessaan tehdä käsin.
-          </span>
-        </p>
-        <p>
-          <span>Myös kaavoitusapua on tänään tarjolla.</span>
-        </p>
-      </>
-    ),
+    date: "2025-02-23",
+    title: "Nuotta on talviloman johdosta kiinni",
+    noMeeting: true,
   },
   {
-    date: "2024-11-03",
+    date: "2025-03-02",
     title: "Skriptorium: illuminaatiota ja kalligrafiaa",
   },
   {
-    date: "2024-11-10",
-    title: "Hukan oma Kekrijuhla-tapahtuma viikonloppuna",
+    date: "2025-03-09",
+    title: "Jousiammuntaa liikuntasalissa",
+  },
+  {
+    date: "2025-03-16",
+    title: "Paitakurssi: osa 2",
+  },
+  {
+    date: "2025-03-23",
+    title: "(ohjelma tulee piakkoin)",
+  },
+  {
+    date: "2025-03-30",
+    title: "Sudennälkä keittiössä: ruoanlaittoa ja syömistä",
+  },
+  {
+    date: "2025-04-06",
+    title: "Kruununturnajaiset",
     noMeeting: true,
   },
   {
-    date: "2024-11-17",
-    title: "Lautanauha osa 1",
-    additionalDescription: (
-      <span>
-        Lisätietoa pikakurssista löytyy{" "}
-        <ExternalLink href={"https://www.facebook.com/groups/hukkary/posts/8922284847815337"}>
-          Facebookista
-        </ExternalLink>
-        . Kurssille on poikkeuksellisesti ilmoittautuminen etukäteen. Ilmoittautuminen tapahtuu{" "}
-        <ExternalLink
-          href={"https://docs.google.com/forms/d/e/1FAIpQLSciLSCwczbCEBAVYX6rfnAXabX_F4LbU0ASQUB7vaAurlTfZg/viewform"}
-        >
-          täältä
-        </ExternalLink>{" "}
-      </span>
-    ),
+    date: "2025-04-13",
+    title: "Jousiammuntaa liikuntasalissa",
   },
   {
-    date: "2024-11-24",
-    title: "Lautanauha: osa 2",
-    additionalDescription: (
-      <span>
-        HUOM. tänään <b>ei</b> olla Nuotalla ollenkaan, vaan Ritarihuoneella ja poikkeuksellisesti jo klo 15-18.
-        Ilmoittautumiseen linkin löydät edellisen kerran kohdasta.
-      </span>
-    ),
-  },
-  {
-    date: "2024-12-01",
-    title: "Skriptorium: illuminaatiota ja kalligrafiaa",
-  },
-  {
-    date: "2024-12-08",
-    title: "Sisarseuramme Poukan järjestämä Annanpäivät-tapahtuma viikonloppuna",
+    date: "2025-04-20",
+    title: "Pääsiäinen",
     noMeeting: true,
   },
   {
-    date: "2024-12-15",
-    title: "Pikkujoulut",
-    additionalDescription: (
-      <span>
-        HUOM. tämä on poikkeuksellisesti Ritarihuoneella ja vaatii ei-sitovan ilmoittautumisen:{" "}
-        <ExternalLink href="https://forms.gle/aNFznK6jfEAKE92P8">Ilmoittautumislinkki tässä</ExternalLink>. Luvassa
-        nyyttärit sekä lahjanryöstöä ja muuta kivaa. Ota vaikka joku oma käsityö mukaan myös.
-      </span>
-    ),
+    date: "2025-04-27",
+    title: "Paitakurssi: osa 3",
+  },
+  {
+    date: "2025-05-04",
+    title: "Skriptorium",
+  },
+  {
+    date: "2025-05-11",
+    title: "Jousiammuntaa liikuntasalissa",
+  },
+  {
+    date: "2025-05-18",
+    title: "Hukan oma Värttinä & Väripata -tapahtuma viikonloppuna",
+    noMeeting: true,
+  },
+  {
+    date: "2025-05-25",
+    title: "Korjaa, paikkaa, merkkaa tai myy",
+  },
+  {
+    date: "2025-06-01",
+    title: "Kevätkauden lopettajaiset",
   },
 ];
 
@@ -631,6 +561,127 @@ const events: Event[] = [
           <span>
             Sisarseuramme Poukan järjestämä tapahtuma Pyhällön Lintukodossa. Lisätietoa tulee alkusyksyn aikana.
           </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2025-01-17",
+    dateEnd: "2025-01-19",
+    title: "Talvi-ilta",
+    description: (
+      <>
+        <p>
+          <span>
+            Sisarseuramme Humalasalon (Hämeen Keskiaika) järjestämä tapahtuma. Ilmoittautuminen tapahtumaan on auki.
+            Lisätietoa löydät mm.
+            <ExternalLink href="https://www.aarnimetsa.org/tapahtumakalenteri/#/aarnimets-humalasalo/17-jan-2025/humalasalon-talvi-ilta-2025">
+              Aarnimetsän kalenterista
+            </ExternalLink>
+            .
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2025-01-27",
+    dateEnd: "2025-01-29",
+    title: "Kuningaskunnan online-yliopisto",
+    description: (
+      <p>
+        <span>
+          Kansainvälinen tieteisiin ja taiteisiin keskittyvä online-tapahtuma. Osallistuminen on ilmaista, mutta
+          ilmoittautuminen täytyy tehdä etukäteen. Lisätietoa suomeksi löydät mm.&nbsp;
+          <ExternalLink href="https://www.facebook.com/groups/hukkary/posts/9215595328484286/">
+            Facebookista
+          </ExternalLink>
+          . Tapahtuman nettisivut löydät&nbsp;
+          <ExternalLink href="https://ku-online.drachenwald.sca.org/">täältä (englanniksi)</ExternalLink>. Sieltä löydät
+          myös ilmoittautumisohjeet.
+        </span>
+      </p>
+    ),
+  },
+  {
+    dateStart: "2025-02-17",
+    dateEnd: "2025-02-19",
+    title: "Sydäntalvenjuhla",
+    description: (
+      <>
+        <p>
+          <span>
+            Sisarseuramme Unikankareen (Turun keskiaikaseura) järjestämä tapahtuma Taivalsalossa. Ilmoittautuminen
+            tapahtumaan on auki. Lisätietoa löydät mm.&nbsp;
+            <ExternalLink href="https://keskiaikaseuraunikankare.fi/sydantalvenjuhla/">
+              tapahtuman kotisivuilta
+            </ExternalLink>
+            .
+          </span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2025-04-04",
+    dateEnd: "2025-04-06",
+    title: "Kuningaskunnan kruununturnajaiset",
+    description: (
+      <>
+        <p>
+          <span>
+            Kuningaskuntamme kruununturnajaiset, joissa mitellään siitä, kuka hallitsee Drachenwaldia seuraavat puoli
+            vuotta. Tapahtumassa on luonnollisesti paljon ohjelmaa myös muille kuin taistelijoille!
+          </span>
+          <p>
+            <span>
+              Lisätietoa löytyy{" "}
+              <ExternalLink href="https://keskiaikaseuraunikankare.fi/springcrown2025-kevatkruunu2025/">
+                tapahtuman nettisivuilta
+              </ExternalLink>
+              .
+            </span>
+          </p>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2025-04-16",
+    dateEnd: "2025-04-18",
+    title: "Värttinä & Väripata",
+    description: (
+      <>
+        <p>
+          <span>Hukan itse järjestämä kehrääjien ja värjärien tapahtuma Lisätietoa tulee kevään aikana.</span>
+        </p>
+      </>
+    ),
+  },
+  {
+    dateStart: "2025-07-04",
+    dateEnd: "2025-07-13",
+    title: "Nuijasota",
+    description: (
+      <>
+        <p>
+          <span>
+            Perinteinen koko Aarnimetsän paronikunnan kesäinen telttaleiritapahtuma tulee taas. Tapahtumassa harrastajat
+            kokoontuvat telttailemaan keskiaikaisessa hengessä reilun viikon ajaksi. Suurella osalla majoittujista on
+            keskiaikainen teltta mutta myös sisämajoituksessa on tilaa ja majoittua voi myös mundaaniteltalla. Ei ole
+            myöskään pakko tulla koko viikoksi, vaan voi tulla esim. päiväkäynnille tai muutamaksi päiväksi.
+          </span>
+        </p>
+        <p>
+          <span>
+            Tapahtumassa on joka päivä monenlaista toimintaa, kuten erilaisten käsitöiden opetusta, luentoja, taistelua,
+            tanssia, jousiammuntaa. Sauna ja järvi ovat myös suosittuja! Tapahtumassa on kahdet pidot. Nopeasti
+            ilmoittautuville on päivisin ruokaa tarjolla aamupala, lounas sekä päivällinen, mutta ruokaa voi tehdä myös
+            itse paikanpäällä.
+          </span>
+        </p>
+        <p>
+          <span>Lisätietoa tulee kevään aikana.</span>
         </p>
       </>
     ),
