@@ -54,7 +54,7 @@ const IndexPage = () => {
                 <span>
                   Viikottaisia taistelutreenejä (rottinkitaistelu, eli SCA heavy fighting) torstaisin. Kesäisin sään
                   salliessa treenaamme ulkona Kannelmäessä. Sateen sattuessa ja syyssäiden tullessa siirrymme Viikkiin
-                  sisätiloihin. Kysy näistä marskilta lisää!
+                  sisätiloihin. Kysy näistä puheenjohtajalta lisää!
                 </span>
               </li>
               <li>
