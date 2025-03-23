@@ -56,7 +56,8 @@ const sundayActivities: SundayActivityType[] = [
   },
   {
     date: "2025-03-23",
-    title: "(ohjelma tulee piakkoin)",
+    title: "Ave Cecilia III -tapahtuma",
+    noMeeting: true,
   },
   {
     date: "2025-03-30",
@@ -647,13 +648,16 @@ const events: Event[] = [
     ),
   },
   {
-    dateStart: "2025-04-16",
-    dateEnd: "2025-04-18",
+    dateStart: "2025-05-16",
+    dateEnd: "2025-05-18",
     title: "Värttinä & Väripata",
     description: (
       <>
         <p>
-          <span>Hukan itse järjestämä kehrääjien ja värjärien tapahtuma Lisätietoa tulee kevään aikana.</span>
+          <span>
+            Hukan itse järjestämä kehrääjien ja värjärien tapahtuma Lisätietoa löytyy mm.
+            <ExternalLink href="https://www.facebook.com/events/976739113939600">Facebookista</ExternalLink>.
+          </span>
         </p>
       </>
     ),
