@@ -10,7 +10,7 @@ display the available officer roles that we're searching.
 import { isWithinInterval, parseISO, startOfToday, subDays } from "date-fns";
 import { IsoDateString } from "dates/types";
 
-export const springSocietyMeetingDate: IsoDateString = "2024-06-09";
+export const springSocietyMeetingDate: IsoDateString = "2025-06-08";
 export const autumnSocietyMeetingDate: IsoDateString = "2024-12-15";
 
 export const isAutumnSocietyMeetingInvitationDisplayed = (): boolean =>
