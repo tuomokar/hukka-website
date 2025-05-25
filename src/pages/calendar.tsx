@@ -97,10 +97,12 @@ const sundayActivities: SundayActivityType[] = [
   {
     date: "2025-05-25",
     title: "Korjaa, paikkaa, merkkaa tai myy",
+    isCanceled: true,
   },
   {
     date: "2025-06-01",
     title: "Kevätkauden lopettajaiset",
+    isCanceled: true,
   },
 ];
 
