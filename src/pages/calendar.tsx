@@ -175,7 +175,7 @@ const events: Event[] = [
     description: (
       <p>
         <span>
-          Hucan laulamiseen ja musiikkiin keskittyvä tapahtuma tulee taas! Ilmoittautuminen on nyt auki. Lisätietoa
+          Hukan laulamiseen ja musiikkiin keskittyvä tapahtuma tulee taas! Ilmoittautuminen on nyt auki. Lisätietoa
           löydät tapahtuman&nbsp;
           <ExternalLink href="https://avececilia.wordpress.com/">tapahtuman nettisivuilta</ExternalLink>.
         </span>
@@ -848,4 +848,4 @@ const EventsContainer = styled.div`
 
 export default Calendar;
 
-export const Head: HeadFC = () => <title>Hucan pitäjä - kalenteri</title>;
+export const Head: HeadFC = () => <title>Hukan pitäjä - kalenteri</title>;

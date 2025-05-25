@@ -58,4 +58,4 @@ const InformationTitle = styled.h3`
 
 export default ContactInfoPage;
 
-export const Head: HeadFC = () => <title>Hucan pitäjä - Yhteystiedot</title>;
+export const Head: HeadFC = () => <title>Hukan pitäjä - Yhteystiedot</title>;

@@ -7,17 +7,17 @@ const Header = () => {
   return (
     <Container>
       <div>
-        <Title>Hucan pitäjä</Title>
+        <Title>Hukan pitäjä</Title>
       </div>
 
       <div>
         <Link to="/">
-          <StaticImage src="../images/hukka-device.png" alt="Hucan vaakuna" />
+          <StaticImage src="../images/hukka-device.png" alt="Hukan vaakuna" />
         </Link>
       </div>
 
       <NavigationContainer>
-        <StyledInternalLink to="/">Hucan pitäjä</StyledInternalLink>
+        <StyledInternalLink to="/">Hukan pitäjä</StyledInternalLink>
         <StyledInternalLink to="/calendar">Kalenteri</StyledInternalLink>
         <StyledInternalLink to="/contact-info">Yhteystiedot</StyledInternalLink>
       </NavigationContainer>

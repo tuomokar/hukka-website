@@ -15,11 +15,11 @@ const IndexPage = () => {
   return (
     <Layout>
       <>
-        <h2>Hucan pitäjä</h2>
+        <h2>Hukan pitäjä</h2>
 
         <p>
           <span>
-            Tervetuloa Hucan keskiaikaiseen pitäjään, eli Keskiaikaseura Hukka ry:n toimintaan. Elävöitämme keskiaikaa
+            Tervetuloa Hukan keskiaikaiseen pitäjään, eli Keskiaikaseura Hukka ry:n toimintaan. Elävöitämme keskiaikaa
             ja renessanssia pääkaupunkiseudulla.
           </span>
         </p>
@@ -33,7 +33,7 @@ const IndexPage = () => {
 
         <p>
           <span>
-            Hucan pitäjä on osa Aarnimetsän paronikuntaa eli Suomen keskiaikaseura ry:tä, joka taas on osa
+            Hukan pitäjä on osa Aarnimetsän paronikuntaa eli Suomen keskiaikaseura ry:tä, joka taas on osa
             kansainvälistä Society for Creative Anachronism -järjestöä, joka pyrkii eri tavoin elävöittämään keskiajan
             ja renessanssin kulttuureja. Toimimme pääkaupunkiseudulla.
           </span>
@@ -98,4 +98,4 @@ const IndexPage = () => {
 
 export default IndexPage;
 
-export const Head: HeadFC = () => <title>Hucan pitäjä</title>;
+export const Head: HeadFC = () => <title>Hukan pitäjä</title>;
