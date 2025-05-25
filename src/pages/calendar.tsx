@@ -687,7 +687,10 @@ const events: Event[] = [
           </span>
         </p>
         <p>
-          <span>Lisätietoa tulee kevään aikana.</span>
+          <span>
+            Tapahtuman ilmoittautuminen on auki. Linkki ilmoittautumiseen ja lisätietoa tapahtumasta&nbsp;
+            <ExternalLink href="https://cudgelwar.wordpress.com/">löytyy sen nettisivuilta</ExternalLink>
+          </span>
         </p>
       </>
     ),
