@@ -104,6 +104,13 @@ const sundayActivities: SundayActivityType[] = [
     title: "Kevätkauden lopettajaiset",
     isCanceled: true,
   },
+  {
+    date: "2025-06-08",
+    title: "Kevätkauden lopettajaiset",
+    additionalDescription: (
+      <span>Huom. tämä ei ole Nuotalla vaan Lopen Sajaniemessä. Pääsivulta löytyy lisätietoa.</span>
+    ),
+  },
 ];
 
 type Event = {
