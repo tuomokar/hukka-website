@@ -813,8 +813,8 @@ const Calendar: FC = () => (
           <p>
             <span>
               Taistelutreenejä on pääsääntöisesti joka torstai klo 18 alkaen. Lainatavaroita löytyy jonkun verran,
-              kunhan kerrot etukäteen esim. voudille ja/tai marskille että olisit kiinnostunut tulemaan (kannattaa
-              kertoa myös siltä kannalta, että joskus voi olla, että treenit peruuntuvat syystä tai toisesta). Alkuun et
+              kunhan kerrot etukäteen esim. voudille ja/tai voudille että olisit kiinnostunut tulemaan (kannattaa kertoa
+              myös siltä kannalta, että joskus voi olla, että treenit peruuntuvat syystä tai toisesta). Alkuun et
               tarvitse itse mitään muuta kuin kevyet pitkähihaiset vaatteet, jotka saavat hikeentyä.
             </span>
           </p>
